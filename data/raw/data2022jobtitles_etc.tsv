@@ -1,0 +1,1544 @@
+README | download CSV				
+JobTitle_cleaned__	RoleMultichoice_composite	YearsDataVizExperience_4buckets	OrgSector_collapsed	OrgIndustry_collapsed
+[suppressed]	Student	A: 2 or fewer years		
+[suppressed]	Scientist	C: 6 to 10 years	Public sector (government)	
+[suppressed]	Scientist	C: 6 to 10 years		Healthcare/medical
+[suppressed]	Leadership	B: 3 to 5 years	Non-profit	
+[suppressed]	Leadership	B: 3 to 5 years	Academia	
+[suppressed]	Leadership	B: 3 to 5 years		2 or more
+[suppressed]	Leadership	C: 6 to 10 years	Non-profit	
+[suppressed]	Leadership	C: 6 to 10 years		Information technology
+[suppressed]	Leadership	D: 11 or more years	Non-profit	
+[suppressed]	Designer	A: 2 or fewer years	Public sector (government)	
+[suppressed]	Designer	B: 3 to 5 years		Finance
+[suppressed]	Designer	D: 11 or more years	2 or more	
+[suppressed]	Designer	D: 11 or more years		
+[suppressed]	Analyst	A: 2 or fewer years		Information technology
+[suppressed]	Analyst	C: 6 to 10 years	Non-profit	Healthcare/medical
+[suppressed]	Analyst	C: 6 to 10 years		Healthcare/medical
+[suppressed]	Analyst	D: 11 or more years	Public sector (government)	2 or more
+[suppressed]	Analyst			Consulting
+[suppressed]		B: 3 to 5 years		
+[suppressed]		C: 6 to 10 years	2 or more	2 or more
+[suppressed]		D: 11 or more years		
+Academic	Scientist	B: 3 to 5 years		
+Academic Assessment and Accreditation Manager		A: 2 or fewer years	Academia	
+Academic Data Specialist	Academic	B: 3 to 5 years		
+Academic Technician	Engineer	C: 6 to 10 years	Academia	
+Account Manager		C: 6 to 10 years		
+Accounting Section Manager	Analyst	A: 2 or fewer years	Public sector (government)	
+Adjunct Faculty	Academic	B: 3 to 5 years		
+Adjunct Professor	Academic	C: 6 to 10 years		
+Adviser	Student	B: 3 to 5 years	Public sector (government)	
+Akademische Rätin	Academic	C: 6 to 10 years		
+Algorithm Developer		A: 2 or fewer years		
+Analyst	Scientist	B: 3 to 5 years	Private sector	
+Analyst	Analyst	A: 2 or fewer years		Finance
+Analyst	Analyst	A: 2 or fewer years		Consulting
+Analyst	Analyst	B: 3 to 5 years	Public sector (government)	
+Analyst	Analyst	B: 3 to 5 years	Academia	
+Analyst	Analyst	B: 3 to 5 years	2 or more	
+Analyst	Analyst	B: 3 to 5 years		Marketing
+Analyst	Analyst	B: 3 to 5 years		Information technology
+Analyst	Analyst	C: 6 to 10 years	Public sector (government)	
+Analyst	Analyst	C: 6 to 10 years	Public sector (government)	
+Analyst	Analyst	C: 6 to 10 years	Public sector (government)	
+Analyst	Analyst	C: 6 to 10 years	Public sector (government)	
+Analyst	Analyst	C: 6 to 10 years	Private sector	
+Analyst	Analyst	C: 6 to 10 years	Non-profit	
+Analyst	Analyst	C: 6 to 10 years		Information technology
+Analyst	Analyst	C: 6 to 10 years		
+Analyst	Academic	C: 6 to 10 years		
+Analyst		A: 2 or fewer years		
+Analyst		B: 3 to 5 years		
+Analyst		C: 6 to 10 years		
+Analyst Programmer	Developer	A: 2 or fewer years	Academia	
+Analytics Analyst	Analyst	B: 3 to 5 years		
+Analytics and Innovation Lead	Analyst	B: 3 to 5 years		Healthcare/medical
+Analytics Consultant	Developer	A: 2 or fewer years		Consulting
+Analytics Consultant	Analyst	B: 3 to 5 years		Information technology
+Analytics Consultant	Analyst	B: 3 to 5 years		
+Analytics Consultant	Analyst	D: 11 or more years		Information technology
+Analytics Consultant		B: 3 to 5 years		
+Analytics Developer	Designer	C: 6 to 10 years		Marketing
+Analytics Engineer	Engineer	B: 3 to 5 years	Private sector	Information technology
+Analytics Engineer	Engineer	B: 3 to 5 years		
+Analytics Engineer	Analyst	B: 3 to 5 years		Information technology
+Analytics Engineer	Analyst	B: 3 to 5 years		Finance
+Analytics Manager	Leadership	B: 3 to 5 years		
+Analytics Manager	Leadership	C: 6 to 10 years		Information technology
+Analytics Manager	Leadership	C: 6 to 10 years		Consulting
+Analytics Practice Lead	Leadership	C: 6 to 10 years	Public sector (government)	Consulting
+Applied Analytics Lead	Analyst	B: 3 to 5 years	Public sector (government)	Consulting
+Applied Analytics Lead		B: 3 to 5 years		
+Apps Dev Lead Engineer	Developer	C: 6 to 10 years		Finance
+Architect	Leadership	C: 6 to 10 years		Healthcare/medical
+Architecture Intern	Cartographer	B: 3 to 5 years	Public sector (government)	
+Art Director	Leadership	D: 11 or more years	Non-profit	
+Art Director	Designer	B: 3 to 5 years	Academia	Information technology
+Art Director	Designer	C: 6 to 10 years		
+Art Editor	Designer	B: 3 to 5 years		Journalism
+Artist		B: 3 to 5 years		
+Artist, Illustrator, Graphic Designer		C: 6 to 10 years		
+Assessment Librarian	Analyst	C: 6 to 10 years	Academia	
+Assistant Director Business Intelligence	Developer	C: 6 to 10 years	Academia	
+Assistant Director of Evaluation & Analytics	Leadership	B: 3 to 5 years	2 or more	Healthcare/medical
+Assistant Director, Data & Assessment	Analyst	A: 2 or fewer years	Non-profit	
+Assistant Lecturer	Student	A: 2 or fewer years		
+Assistant Lecturer	Academic	A: 2 or fewer years		
+Assistant Policy Researcher	Scientist	C: 6 to 10 years	Non-profit	Consulting
+Assistant Professor	Journalist	C: 6 to 10 years		
+Assistant Professor	Analyst	D: 11 or more years		
+Assistant Professor	Academic	C: 6 to 10 years		
+Assistant Professor	Academic	C: 6 to 10 years		
+Assistant Professor	Academic	D: 11 or more years		
+Assistant Professor	Academic	D: 11 or more years		
+Assistant Professor / Ph.D. Candidate	Academic	B: 3 to 5 years		
+Assistant System Engineer		A: 2 or fewer years		
+Assistant Teaching Professor	Academic	B: 3 to 5 years		
+Assistant Vice-President for Institutional Research	Leadership	C: 6 to 10 years	Academia	
+Associate	Analyst	A: 2 or fewer years		
+Associate	Analyst	C: 6 to 10 years		Healthcare/medical
+Associate Analyst		A: 2 or fewer years		
+Associate Analytics Consultant	Analyst	A: 2 or fewer years		Consulting
+Associate Art Director	Teacher	D: 11 or more years	Public sector (government)	
+Associate Content Marketing Manager	Student	B: 3 to 5 years		
+Associate Director	Analyst	D: 11 or more years	Academia	
+Associate Director Data and Analytics	Leadership	B: 3 to 5 years	Private sector	
+Associate Director of Data Science	Scientist	C: 6 to 10 years	Academia	
+Associate Director of Institutional Research	Analyst	B: 3 to 5 years	Academia	
+Associate Director of Research and Evaluation	Analyst	C: 6 to 10 years	Non-profit	
+Associate Director of Space Analytics	Leadership	D: 11 or more years	Public sector (government)	2 or more
+Associate Director, Data Analytics		C: 6 to 10 years		
+Associate Director, Organizational Effectiveness		B: 3 to 5 years	Non-profit	
+Associate Graphics Editor	Journalist	C: 6 to 10 years		Journalism
+Associate Manager	Leadership	C: 6 to 10 years		Marketing
+Associate Principal Scientist	Scientist	D: 11 or more years	Private sector	Healthcare/medical
+Associate Professor	Teacher	D: 11 or more years	Academia	
+Associate Professor	Academic	B: 3 to 5 years		
+Associate Professor	Academic	C: 6 to 10 years		
+Associate Professor	Academic	C: 6 to 10 years		
+Associate Professor	Academic	C: 6 to 10 years		
+Associate Professor	Academic	D: 11 or more years		
+Associate Professor	Academic	D: 11 or more years		
+Associate Professor	Academic	D: 11 or more years		
+Associate Professor / Research Data Librarian	Academic	B: 3 to 5 years	Public sector (government)	Information technology
+Associate Professor & Consultant		C: 6 to 10 years		
+Associate Research Scientist	Scientist	B: 3 to 5 years	Public sector (government)	
+Audit Data Analyst	Analyst	A: 2 or fewer years		
+BI Analyst	Analyst	A: 2 or fewer years		Finance
+BI Analyst	Analyst	D: 11 or more years	Private sector	
+BI Analyst	Analyst	D: 11 or more years		
+BI Analyst / Trainer	Developer	B: 3 to 5 years	Academia	
+BI and Data Specialist	Analyst	B: 3 to 5 years		
+BI Consultant	Analyst	B: 3 to 5 years		Consulting
+BI Consultant	Analyst	B: 3 to 5 years		Consulting
+BI Consultant	Analyst	D: 11 or more years		
+BI Consultant / Developer	Developer	C: 6 to 10 years		Consulting
+BI Data Analyst	Designer	B: 3 to 5 years	Private sector	
+BI Data Visualization Lead	Developer	B: 3 to 5 years	Private sector	
+BI Developer	Developer	A: 2 or fewer years		Healthcare/medical
+BI Developer	Developer	B: 3 to 5 years		Finance
+BI Engineer	Engineer	B: 3 to 5 years	Private sector	
+BI Manager	Leadership	C: 6 to 10 years	Private sector	
+BI Specialist	Analyst	B: 3 to 5 years	Private sector	
+BI Support Analyst		B: 3 to 5 years		
+BI Visualization Expert		B: 3 to 5 years		Consulting
+Bioinformatics Scientist	Scientist	C: 6 to 10 years	Private sector	Healthcare/medical
+Biostatistician	Analyst	C: 6 to 10 years	Public sector (government)	Healthcare/medical
+Biostatistician	Analyst	C: 6 to 10 years	Public sector (government)	
+Biostatistician	Analyst	C: 6 to 10 years	Academia	
+Biostatistician	Academic	C: 6 to 10 years		
+Board Member	Leadership	D: 11 or more years		Information technology
+Brand and Creative Manager		B: 3 to 5 years		
+Budgeting & Reporting Manager		B: 3 to 5 years		
+Business Analyst	Analyst	B: 3 to 5 years	Public sector (government)	
+Business Analyst	Analyst	B: 3 to 5 years	Non-profit	2 or more
+Business Analyst	Analyst	B: 3 to 5 years		Information technology
+Business Analyst	Analyst	B: 3 to 5 years		Consulting
+Business Analyst	Analyst	C: 6 to 10 years	Non-profit	
+Business Analyst	Analyst	D: 11 or more years	Private sector	
+Business Analyst		A: 2 or fewer years		
+Business Analyst		A: 2 or fewer years		
+Business Analyst		B: 3 to 5 years		
+Business Analytics and Research Manager	Analyst	B: 3 to 5 years	Public sector (government)	
+Business Analytics Consultant	Analyst	B: 3 to 5 years		2 or more
+Business Analytics Specialist		A: 2 or fewer years		
+Business Controller	Analyst	B: 3 to 5 years	Private sector	
+Business Coordination Manager	Leadership	A: 2 or fewer years		
+Business Data Analyst	Analyst	B: 3 to 5 years	Academia	
+Business Data Analyst	Analyst	C: 6 to 10 years	Private sector	
+Business Intelligence Analyst	Analyst	A: 2 or fewer years	Public sector (government)	
+Business Intelligence Analyst	Analyst	A: 2 or fewer years		Healthcare/medical
+Business Intelligence Analyst	Analyst	B: 3 to 5 years	Private sector	
+Business Intelligence Analyst	Analyst	B: 3 to 5 years	Academia	
+Business Intelligence Analyst	Analyst	B: 3 to 5 years		
+Business Intelligence Analyst	Analyst	C: 6 to 10 years	Public sector (government)	
+Business Intelligence Analyst	Analyst	C: 6 to 10 years	Private sector	
+Business Intelligence Analyst	Analyst	C: 6 to 10 years		Healthcare/medical
+Business Intelligence Analyst		B: 3 to 5 years		
+Business Intelligence Analyst		C: 6 to 10 years		
+Business Intelligence and Reporting Manager	Leadership	D: 11 or more years		Information technology
+Business Intelligence Consultant	Analyst	A: 2 or fewer years		Information technology
+Business Intelligence Consultant	Analyst	B: 3 to 5 years	Private sector	Finance
+Business Intelligence Consultant		B: 3 to 5 years		
+Business Intelligence Developer	Developer	B: 3 to 5 years		Finance
+Business Intelligence Engineer	Engineer	B: 3 to 5 years	Private sector	Consulting
+Business Intelligence Engineer	Developer	C: 6 to 10 years		Finance
+Business Intelligence Manager	Leadership	C: 6 to 10 years	Non-profit	
+Business Intelligence Senior Analyst	Analyst	D: 11 or more years	Academia	
+Business Intelligence Specialist	Analyst	B: 3 to 5 years	Public sector (government)	
+Business Operations Analyst	Analyst	B: 3 to 5 years		Healthcare/medical
+Business Planning		A: 2 or fewer years		
+Cartographer	Student	C: 6 to 10 years		
+CEO	Teacher	C: 6 to 10 years		
+CEO	Leadership	A: 2 or fewer years		Marketing
+CEO	Leadership	B: 3 to 5 years		Information technology
+CEO	Leadership	C: 6 to 10 years		
+CEO	Leadership	D: 11 or more years	Private sector	Consulting
+CEO	Leadership	D: 11 or more years	Academia	2 or more
+CEO	Leadership	D: 11 or more years		Information technology
+CEO	Designer	C: 6 to 10 years	2 or more	2 or more
+CEO		C: 6 to 10 years		
+CEO / Community Consultant		D: 11 or more years		
+CFD Engineer		B: 3 to 5 years		
+Chartered Accountant	Leadership	C: 6 to 10 years	2 or more	Healthcare/medical
+Chief Administrative Officer		B: 3 to 5 years		
+Chief Creative Officer	Leadership	D: 11 or more years	2 or more	2 or more
+Chief Marketing Officer	Leadership	D: 11 or more years		Healthcare/medical
+Chief of Staff		C: 6 to 10 years		
+Chief Partnership Strategy Officer		C: 6 to 10 years		
+Chief Program Officer	Leadership	D: 11 or more years	Non-profit	
+Chief Scientist	Leadership	C: 6 to 10 years		Information technology
+CIO	Leadership	C: 6 to 10 years	Private sector	
+Clinical Data Analyst	Analyst	A: 2 or fewer years		Healthcare/medical
+Cloud Solutions Specialist	Designer	C: 6 to 10 years		Information technology
+Co-Owner	Leadership	A: 2 or fewer years		
+Collection Maintenance Librarian		B: 3 to 5 years	Public sector (government)	
+Collections Analyst	Analyst	B: 3 to 5 years		Finance
+Columnist	Journalist	D: 11 or more years		Journalism
+Commander		A: 2 or fewer years		
+Commercial Finance Manager		A: 2 or fewer years		
+Commercial Insights Lead		B: 3 to 5 years		Information technology
+Commercial Operations Coordinator	Leadership	C: 6 to 10 years		
+Communications and Special Projects Officer		C: 6 to 10 years	Academia	
+Communications Designer	Designer	A: 2 or fewer years		
+Communications Director	Leadership	C: 6 to 10 years	Academia	
+Communications Director	Designer	B: 3 to 5 years	Public sector (government)	
+Communications Officer		C: 6 to 10 years		
+Computational Social Scientist	Developer	B: 3 to 5 years	2 or more	Information technology
+Computer Engineer	Developer	B: 3 to 5 years		Information technology
+Consultant	Teacher	D: 11 or more years	Private sector	Information technology
+Consultant	Leadership	B: 3 to 5 years		Consulting
+Consultant	Developer	C: 6 to 10 years		
+Consultant	Designer	A: 2 or fewer years		
+Consultant	Analyst	A: 2 or fewer years		
+Consultant	Analyst	B: 3 to 5 years	Non-profit	Consulting
+Consultant	Analyst	B: 3 to 5 years		Consulting
+Consultant	Analyst	C: 6 to 10 years		2 or more
+Consultant	Analyst	C: 6 to 10 years		
+Consultant	Analyst	D: 11 or more years	Public sector (government)	
+Consultant		A: 2 or fewer years		
+Consultant		C: 6 to 10 years		2 or more
+Consultant		C: 6 to 10 years		
+Consultant		D: 11 or more years		
+Consultant / Coach	Academic	D: 11 or more years		
+Consultant Analytics	Analyst	B: 3 to 5 years	Private sector	
+Consultant and Lecturer	Analyst	B: 3 to 5 years	Private sector	
+Consultant in Clinical Decision Support	Scientist	C: 6 to 10 years		Healthcare/medical
+Consultant in Clinical Decision Support	Leadership	B: 3 to 5 years		2 or more
+Consulting Manager	Leadership	C: 6 to 10 years		Consulting
+Consultor	Designer	C: 6 to 10 years	Public sector (government)	Information technology
+Content Specialist	Journalist	B: 3 to 5 years		Journalism
+Controller	Analyst	C: 6 to 10 years	Private sector	
+Controller	Analyst	D: 11 or more years	Public sector (government)	Finance
+COO	Student	A: 2 or fewer years		
+COO	Leadership	C: 6 to 10 years		Consulting
+Creative Director	Leadership	C: 6 to 10 years	2 or more	2 or more
+Creative Director	Leadership	D: 11 or more years		
+Creative Director	Leadership	D: 11 or more years		
+Creative Director	Designer	C: 6 to 10 years		
+Creative Director	Designer	D: 11 or more years		Journalism
+Creative Director (of a data visualisation agency)		D: 11 or more years		
+Creative Generalist		A: 2 or fewer years		
+Creative Lead	Designer	C: 6 to 10 years		Consulting
+CTO	Leadership	C: 6 to 10 years	Private sector	
+CTO	Leadership	D: 11 or more years		Healthcare/medical
+CTO	Analyst	B: 3 to 5 years		
+Customer Advisor	Analyst	B: 3 to 5 years		Information technology
+CX Analyst	Analyst	C: 6 to 10 years		Finance
+Dashboard Visualisation Developer	Developer	C: 6 to 10 years	Private sector	
+Data & Analytics	Analyst	C: 6 to 10 years	2 or more	
+Data & Analytics Director	Analyst	D: 11 or more years		Marketing
+Data & Analytics Lead	Analyst	C: 6 to 10 years		Marketing
+Data Ambassador	Academic	D: 11 or more years		
+Data Analysis and Strategy Consultant	Analyst	C: 6 to 10 years		
+Data Analysis Manager	Analyst	C: 6 to 10 years		Information technology
+Data Analyst	Teacher	B: 3 to 5 years		
+Data Analyst	Student	A: 2 or fewer years		
+Data Analyst	Student	A: 2 or fewer years		
+Data Analyst	Engineer	B: 3 to 5 years	2 or more	
+Data Analyst	Developer	B: 3 to 5 years		Information technology
+Data Analyst	Developer	C: 6 to 10 years	Non-profit	
+Data Analyst	Designer	A: 2 or fewer years		
+Data Analyst	Analyst	A: 2 or fewer years	Public sector (government)	
+Data Analyst	Analyst	A: 2 or fewer years	Private sector	Information technology
+Data Analyst	Analyst	A: 2 or fewer years	Private sector	
+Data Analyst	Analyst	A: 2 or fewer years	Private sector	
+Data Analyst	Analyst	A: 2 or fewer years	Private sector	
+Data Analyst	Analyst	A: 2 or fewer years	Non-profit	Healthcare/medical
+Data Analyst	Analyst	A: 2 or fewer years	Non-profit	
+Data Analyst	Analyst	A: 2 or fewer years	Non-profit	
+Data Analyst	Analyst	A: 2 or fewer years		Marketing
+Data Analyst	Analyst	A: 2 or fewer years		Information technology
+Data Analyst	Analyst	A: 2 or fewer years		Finance
+Data Analyst	Analyst	A: 2 or fewer years		Finance
+Data Analyst	Analyst	A: 2 or fewer years		Finance
+Data Analyst	Analyst	A: 2 or fewer years		
+Data Analyst	Analyst	A: 2 or fewer years		
+Data Analyst	Analyst	A: 2 or fewer years		
+Data Analyst	Analyst	B: 3 to 5 years	Private sector	Consulting
+Data Analyst	Analyst	B: 3 to 5 years	Private sector	
+Data Analyst	Analyst	B: 3 to 5 years	Private sector	
+Data Analyst	Analyst	B: 3 to 5 years	Non-profit	
+Data Analyst	Analyst	B: 3 to 5 years	Non-profit	
+Data Analyst	Analyst	B: 3 to 5 years	Academia	Information technology
+Data Analyst	Analyst	B: 3 to 5 years	Academia	
+Data Analyst	Analyst	B: 3 to 5 years	Academia	
+Data Analyst	Analyst	B: 3 to 5 years	Academia	
+Data Analyst	Analyst	B: 3 to 5 years	2 or more	
+Data Analyst	Analyst	B: 3 to 5 years	2 or more	
+Data Analyst	Analyst	B: 3 to 5 years		Marketing
+Data Analyst	Analyst	B: 3 to 5 years		Healthcare/medical
+Data Analyst	Analyst	B: 3 to 5 years		Finance
+Data Analyst	Analyst	B: 3 to 5 years		Finance
+Data Analyst	Analyst	B: 3 to 5 years		
+Data Analyst	Analyst	B: 3 to 5 years		
+Data Analyst	Analyst	B: 3 to 5 years		
+Data Analyst	Analyst	B: 3 to 5 years		
+Data Analyst	Analyst	B: 3 to 5 years		
+Data Analyst	Analyst	B: 3 to 5 years		
+Data Analyst	Analyst	C: 6 to 10 years	Private sector	Information technology
+Data Analyst	Analyst	C: 6 to 10 years	Private sector	
+Data Analyst	Analyst	C: 6 to 10 years	Non-profit	
+Data Analyst	Analyst	C: 6 to 10 years	Academia	Information technology
+Data Analyst	Analyst	C: 6 to 10 years	Academia	
+Data Analyst	Analyst	C: 6 to 10 years	2 or more	2 or more
+Data Analyst	Analyst	C: 6 to 10 years		Information technology
+Data Analyst	Analyst	C: 6 to 10 years		Finance
+Data Analyst	Analyst	C: 6 to 10 years		Finance
+Data Analyst	Analyst	C: 6 to 10 years		
+Data Analyst	Analyst	D: 11 or more years	Public sector (government)	
+Data Analyst	Analyst	D: 11 or more years		Healthcare/medical
+Data Analyst	Analyst	D: 11 or more years		Consulting
+Data Analyst		A: 2 or fewer years		
+Data Analyst		A: 2 or fewer years		
+Data Analyst		A: 2 or fewer years		
+Data Analyst		A: 2 or fewer years		
+Data Analyst		A: 2 or fewer years		
+Data Analyst		A: 2 or fewer years		
+Data Analyst		A: 2 or fewer years		
+Data Analyst		B: 3 to 5 years	Non-profit	
+Data Analyst		C: 6 to 10 years		
+Data Analyst		C: 6 to 10 years		
+Data Analyst		C: 6 to 10 years		
+Data Analyst / Engineer	Scientist	B: 3 to 5 years	2 or more	
+Data Analyst / Engineer	Designer	C: 6 to 10 years	Private sector	
+Data Analyst and Data Visualizer		A: 2 or fewer years		
+Data Analyst and Research Coordinator	Analyst	C: 6 to 10 years	Public sector (government)	
+Data Analyst Lead	Analyst	B: 3 to 5 years	Academia	
+Data Analyst Lead	Analyst	C: 6 to 10 years		
+Data Analyst, Data Engineer	Student	A: 2 or fewer years		
+Data Analytics	Analyst	B: 3 to 5 years	Private sector	2 or more
+Data Analytics Developer	Developer	C: 6 to 10 years	Private sector	
+Data Analytics Development Lead	Developer	C: 6 to 10 years	Academia	
+Data Analytics Instructor	Academic	C: 6 to 10 years		
+Data Analytics Lead	Analyst	D: 11 or more years		Healthcare/medical
+Data Analytics Lead		B: 3 to 5 years		
+Data Analytics Manager	Leadership	B: 3 to 5 years		Consulting
+Data Analytics Manager	Analyst	C: 6 to 10 years		2 or more
+Data Analytics Manager	Analyst	D: 11 or more years	Private sector	
+Data and Analytics Manager	Analyst	B: 3 to 5 years	Non-profit	
+Data and Analytics Manager / Adjunct Professor	Leadership	C: 6 to 10 years	Public sector (government)	
+Data and Communications Specialist	Analyst	B: 3 to 5 years	Public sector (government)	
+Data and Evaluation Manager	Analyst	B: 3 to 5 years	Non-profit	
+Data and GIS Analyst	Analyst	D: 11 or more years	2 or more	Healthcare/medical
+Data and Learning Manager	Leadership	B: 3 to 5 years	Non-profit	
+Data and Reporting Specialist	Analyst	B: 3 to 5 years	Non-profit	
+Data and Statistics Consultant		C: 6 to 10 years	Public sector (government)	
+Data Architect	Analyst	C: 6 to 10 years	Private sector	Finance
+Data Architect		B: 3 to 5 years		
+Data Artist	Developer	B: 3 to 5 years		
+Data Artist		B: 3 to 5 years		Consulting
+Data Associate	Analyst	B: 3 to 5 years	Non-profit	
+Data Communications Coordinator		B: 3 to 5 years	Public sector (government)	
+Data Consultant	Developer	C: 6 to 10 years		Information technology
+Data Consultant	Analyst	B: 3 to 5 years	Academia	
+Data Designer	Leadership	C: 6 to 10 years		Consulting
+Data Designer	Leadership	C: 6 to 10 years		Consulting
+Data Designer	Designer	B: 3 to 5 years	Private sector	Marketing
+Data Designer	Designer	B: 3 to 5 years		
+Data Designer	Designer	B: 3 to 5 years		
+Data Developer	Developer	B: 3 to 5 years	Private sector	
+Data Engineer	Engineer	A: 2 or fewer years	Private sector	Information technology
+Data Engineer	Engineer	A: 2 or fewer years		Healthcare/medical
+Data Engineer	Engineer	B: 3 to 5 years	Public sector (government)	
+Data Engineer	Engineer	B: 3 to 5 years		2 or more
+Data Engineer	Engineer	B: 3 to 5 years		
+Data Engineer	Engineer	B: 3 to 5 years		
+Data Engineer	Analyst	D: 11 or more years		
+Data Engineer		C: 6 to 10 years		
+Data Engineer		C: 6 to 10 years		
+Data Engineer		C: 6 to 10 years		
+Data Engineer Director	Leadership	B: 3 to 5 years	Academia	Marketing
+Data Engineering Manager	Leadership	C: 6 to 10 years		Information technology
+Data Experience Designer		D: 11 or more years		
+Data Experience Lead	Leadership	B: 3 to 5 years	Public sector (government)	
+Data Graphics Designer	Designer	D: 11 or more years	Academia	2 or more
+Data Informatics Leader	Leadership	D: 11 or more years		Consulting
+Data Journalist	Journalist	B: 3 to 5 years	Public sector (government)	Journalism
+Data Journalist	Journalist	B: 3 to 5 years		Healthcare/medical
+Data Journalist	Journalist	C: 6 to 10 years		Journalism
+Data Journalist	Journalist	C: 6 to 10 years		Journalism
+Data Journalist	Journalist	C: 6 to 10 years		Journalism
+Data Journalist	Journalist	C: 6 to 10 years		2 or more
+Data Journalist	Journalist	C: 6 to 10 years		
+Data Journalist	Journalist	D: 11 or more years		Journalism
+Data Journalist	Analyst	B: 3 to 5 years		Journalism
+Data Journalist		D: 11 or more years		
+Data Lead	Leadership	B: 3 to 5 years	Private sector	
+Data Literacy Coach	Teacher	A: 2 or fewer years		
+Data Management Analyst	Academic	C: 6 to 10 years		
+Data Management Support Specialist		B: 3 to 5 years		
+Data Manager	Leadership	B: 3 to 5 years	Non-profit	
+Data Manager	Engineer	A: 2 or fewer years	Public sector (government)	
+Data Manager	Developer	C: 6 to 10 years	Academia	
+Data Manager	Analyst	B: 3 to 5 years		2 or more
+Data Manager	Analyst	C: 6 to 10 years	Public sector (government)	
+Data Officer		B: 3 to 5 years		
+Data Product Developer	Developer	B: 3 to 5 years		Information technology
+Data Product Leader	Leadership	D: 11 or more years		
+Data Project Leader	Leadership	C: 6 to 10 years		Consulting
+Data Quality Analyst	Analyst	A: 2 or fewer years	Private sector	
+Data Reporter	Journalist	B: 3 to 5 years		Journalism
+Data Reporting & Insights	Analyst	A: 2 or fewer years		
+Data Research Analyst		B: 3 to 5 years		
+Data Science		B: 3 to 5 years		
+Data Science Consultant		B: 3 to 5 years		
+Data Science Director	Leadership	C: 6 to 10 years		Finance
+Data Science Manager	Leadership	D: 11 or more years	Private sector	
+Data Science Manager		B: 3 to 5 years		
+Data Scientist	Scientist	B: 3 to 5 years		Information technology
+Data Scientist	Scientist	C: 6 to 10 years	Public sector (government)	
+Data Scientist	Scientist	C: 6 to 10 years	Academia	
+Data Scientist	Scientist	C: 6 to 10 years		Finance
+Data Scientist	Scientist	D: 11 or more years		Healthcare/medical
+Data Scientist	Engineer	A: 2 or fewer years	Academia	2 or more
+Data Scientist	Developer	B: 3 to 5 years	Private sector	Information technology
+Data Scientist	Developer	B: 3 to 5 years		Consulting
+Data Scientist	Developer	C: 6 to 10 years	2 or more	2 or more
+Data Scientist	Developer	C: 6 to 10 years		
+Data Scientist	Analyst	A: 2 or fewer years		
+Data Scientist	Analyst	B: 3 to 5 years	Private sector	Information technology
+Data Scientist	Analyst	B: 3 to 5 years	Private sector	
+Data Scientist	Analyst	B: 3 to 5 years	Private sector	
+Data Scientist	Analyst	B: 3 to 5 years		Healthcare/medical
+Data Scientist	Analyst	B: 3 to 5 years		Finance
+Data Scientist	Analyst	B: 3 to 5 years		Finance
+Data Scientist	Analyst	C: 6 to 10 years	Public sector (government)	
+Data Scientist	Analyst	C: 6 to 10 years	Private sector	Consulting
+Data Scientist	Analyst	C: 6 to 10 years	Non-profit	
+Data Scientist	Analyst	C: 6 to 10 years	Academia	
+Data Scientist	Analyst	C: 6 to 10 years	2 or more	Consulting
+Data Scientist	Analyst	C: 6 to 10 years		2 or more
+Data Scientist	Analyst	D: 11 or more years	Academia	
+Data Scientist		A: 2 or fewer years		
+Data Scientist		A: 2 or fewer years		
+Data Scientist		A: 2 or fewer years		
+Data Scientist		B: 3 to 5 years		Marketing
+Data Scientist		B: 3 to 5 years		
+Data Scientist		B: 3 to 5 years		
+Data Scientist		B: 3 to 5 years		
+Data Scientist		C: 6 to 10 years		
+Data Scientist / Data Visualization Specalist	Scientist	B: 3 to 5 years	Public sector (government)	
+Data Scientist / Survey Researcher	Analyst	C: 6 to 10 years		
+Data Services Librarian	Academic	B: 3 to 5 years		
+Data Solution Specialist		B: 3 to 5 years		
+Data Solutions Advisor		B: 3 to 5 years		
+Data Solutions Analyst	Student	A: 2 or fewer years		
+Data Specialist	Analyst	B: 3 to 5 years		Consulting
+Data Specialist		C: 6 to 10 years	Non-profit	
+Data Steward		C: 6 to 10 years		
+Data Storyteller	Journalist	B: 3 to 5 years		Finance
+Data Storyteller	Designer	C: 6 to 10 years	Public sector (government)	
+Data Storyteller	Designer	D: 11 or more years		
+Data Strategist	Leadership	C: 6 to 10 years	Private sector	Information technology
+Data Systems Analyst	Analyst	B: 3 to 5 years	Public sector (government)	
+Data Systems and Visualization	Designer	B: 3 to 5 years	Non-profit	
+Data Technician / Asistant Director	Scientist	D: 11 or more years	Non-profit	
+Data Visualisation Analyst	Analyst	C: 6 to 10 years		
+Data Visualisation Consultant	Teacher	C: 6 to 10 years		
+Data Visualisation Consultant	Developer	B: 3 to 5 years		
+Data Visualisation Consultant	Developer	C: 6 to 10 years		
+Data Visualisation Consultant	Developer	C: 6 to 10 years		
+Data Visualisation Designer	Designer	C: 6 to 10 years		
+Data Visualisation Editor	Journalist	C: 6 to 10 years		Journalism
+Data Visualisation Instructor	Teacher	B: 3 to 5 years	Private sector	
+Data visualisation Manager	Leadership	C: 6 to 10 years	Non-profit	
+Data visualisation Manager	Designer	D: 11 or more years	Private sector	
+Data Visualisation Professional	Engineer	C: 6 to 10 years		
+Data Visualisation Specialist	Developer	D: 11 or more years		
+Data Visualization Advisor	Analyst	D: 11 or more years		Information technology
+Data Visualization Advisor		C: 6 to 10 years		Finance
+Data Visualization Analyst	Engineer	A: 2 or fewer years		
+Data Visualization Analyst	Designer	C: 6 to 10 years		Healthcare/medical
+Data Visualization Analyst	Analyst	B: 3 to 5 years	Public sector (government)	Healthcare/medical
+Data Visualization Analyst	Analyst	B: 3 to 5 years	Private sector	
+Data Visualization Analyst	Analyst	B: 3 to 5 years		Information technology
+Data Visualization Analyst	Analyst	D: 11 or more years		Consulting
+Data Visualization Architect		B: 3 to 5 years		
+Data Visualization Artist	Designer	C: 6 to 10 years		
+Data Visualization Consultant	Developer	B: 3 to 5 years		Consulting
+Data Visualization Consultant	Analyst	A: 2 or fewer years		Marketing
+Data Visualization Consultant	Analyst	A: 2 or fewer years		2 or more
+Data Visualization Consultant	Analyst	B: 3 to 5 years		
+Data Visualization Designer	Leadership	D: 11 or more years		Finance
+Data Visualization Designer	Designer	A: 2 or fewer years		Consulting
+Data Visualization Designer	Designer	A: 2 or fewer years		
+Data Visualization Designer	Designer	A: 2 or fewer years		
+Data Visualization Designer	Designer	B: 3 to 5 years	Private sector	
+Data Visualization Designer	Designer	B: 3 to 5 years		Consulting
+Data Visualization Designer	Designer	B: 3 to 5 years		
+Data Visualization Designer	Designer	B: 3 to 5 years		
+Data Visualization Designer	Designer	B: 3 to 5 years		
+Data Visualization Designer	Designer	B: 3 to 5 years		
+Data Visualization Designer	Designer	C: 6 to 10 years	Academia	Consulting
+Data Visualization Designer	Designer	C: 6 to 10 years		Information technology
+Data Visualization Designer	Designer	D: 11 or more years		
+Data Visualization Designer		B: 3 to 5 years		
+Data Visualization Designer & Consultant	Designer	C: 6 to 10 years		
+Data Visualization Developer	Engineer	C: 6 to 10 years	Private sector	
+Data Visualization Developer	Developer	A: 2 or fewer years		Healthcare/medical
+Data Visualization Developer	Developer	A: 2 or fewer years		Consulting
+Data Visualization Developer	Developer	C: 6 to 10 years	Non-profit	
+Data Visualization Developer	Developer	D: 11 or more years		Journalism
+Data Visualization Developer	Analyst	C: 6 to 10 years		Consulting
+Data Visualization Engineer	Engineer	A: 2 or fewer years		Finance
+Data Visualization Engineer	Engineer	B: 3 to 5 years		Information technology
+Data Visualization Engineer	Engineer	C: 6 to 10 years		Healthcare/medical
+Data Visualization Engineer	Engineer	D: 11 or more years	Private sector	
+Data Visualization Engineer	Developer	B: 3 to 5 years		Information technology
+Data Visualization Engineer	Developer	C: 6 to 10 years	Private sector	Journalism
+Data Visualization Engineer	Designer	C: 6 to 10 years		Information technology
+Data Visualization Engineer	Designer	C: 6 to 10 years		Information technology
+Data Visualization Freelance	Developer	C: 6 to 10 years		
+Data Visualization Freelancer	Journalist	A: 2 or fewer years		Journalism
+Data Visualization Instructor	Teacher	C: 6 to 10 years	Non-profit	
+Data Visualization Journalist	Journalist	B: 3 to 5 years		Journalism
+Data Visualization Lead	Engineer	C: 6 to 10 years	Public sector (government)	
+Data Visualization Lead	Developer	B: 3 to 5 years	2 or more	2 or more
+Data Visualization Lead	Analyst	B: 3 to 5 years	Private sector	Information technology
+Data Visualization Librarian		C: 6 to 10 years	Public sector (government)	
+Data Visualization Manager	Leadership	B: 3 to 5 years		Journalism
+Data Visualization Manager	Leadership	C: 6 to 10 years		2 or more
+Data Visualization Manager	Developer	D: 11 or more years		Finance
+Data Visualization Manager	Academic	B: 3 to 5 years		
+Data Visualization Scientist	Analyst	B: 3 to 5 years	Non-profit	
+Data Visualization Specialist	Journalist	B: 3 to 5 years	Non-profit	
+Data Visualization Specialist	Developer	A: 2 or fewer years		Marketing
+Data Visualization Specialist	Developer	B: 3 to 5 years	Public sector (government)	
+Data Visualization Specialist	Developer	B: 3 to 5 years		
+Data Visualization Specialist	Developer	C: 6 to 10 years		Healthcare/medical
+Data Visualization Specialist	Developer	C: 6 to 10 years		Consulting
+Data Visualization Specialist	Analyst	A: 2 or fewer years	Non-profit	
+Data Visualization Specialist	Analyst	D: 11 or more years		
+Data Visualization Specialist		A: 2 or fewer years		Information technology
+Data Visualization Specialist		B: 3 to 5 years		
+Data Visualization Strategist	Designer	B: 3 to 5 years		Finance
+Database Coordinator	Analyst	C: 6 to 10 years	Academia	
+Decision Support Analyst	Analyst	C: 6 to 10 years	Academia	
+Deputy Director	Leadership	A: 2 or fewer years		Journalism
+Deputy Director	Academic	C: 6 to 10 years		
+Deputy Manager Data Science	Leadership	B: 3 to 5 years	Private sector	
+Design Associate	Designer	B: 3 to 5 years	Non-profit	
+Design Consultant	Designer	A: 2 or fewer years		
+Design Director	Designer	D: 11 or more years		
+Design Intern	Student	A: 2 or fewer years		
+Design Manager	Designer	C: 6 to 10 years	2 or more	2 or more
+Designer	Designer	A: 2 or fewer years	2 or more	Consulting
+Designer	Designer	A: 2 or fewer years		Information technology
+Designer	Designer	A: 2 or fewer years		2 or more
+Designer	Designer	B: 3 to 5 years		
+Designer	Designer	C: 6 to 10 years	2 or more	2 or more
+Designer	Designer	C: 6 to 10 years		Information technology
+Designer	Designer	D: 11 or more years		Journalism
+Designer	Designer	D: 11 or more years		
+Designer		A: 2 or fewer years		
+Developer	Developer	A: 2 or fewer years		
+Developer	Developer	C: 6 to 10 years		Information technology
+Developer	Developer	D: 11 or more years	Non-profit	Journalism
+Developer		A: 2 or fewer years		
+Developer, Information Designer	Designer	B: 3 to 5 years		
+Development Officer	Developer	B: 3 to 5 years	Public sector (government)	
+Digital Analyst	Analyst	A: 2 or fewer years	Non-profit	
+Digital Analyst	Analyst	D: 11 or more years	2 or more	2 or more
+Digital Analytics Implementation Specialist	Analyst	C: 6 to 10 years		Marketing
+Digital Consultant	Analyst	D: 11 or more years		
+Digital Content Producer	Designer	B: 3 to 5 years		Finance
+Digital Content Producer	Designer	B: 3 to 5 years		2 or more
+Digital Designer	Designer	B: 3 to 5 years	Private sector	
+Digital Desk Manager	Journalist	A: 2 or fewer years		Journalism
+Digital Marketing Assistant	Student	A: 2 or fewer years		
+Digital Payment Analyst	Analyst	C: 6 to 10 years		
+Digital Platform Architect		A: 2 or fewer years		
+Digital Producer	Journalist	C: 6 to 10 years		Journalism
+Digital Product Designer	Designer	B: 3 to 5 years		Information technology
+Digitial Content Editor		B: 3 to 5 years		2 or more
+Director	Leadership	B: 3 to 5 years		Healthcare/medical
+Director	Leadership	D: 11 or more years	Non-profit	Healthcare/medical
+Director	Leadership	D: 11 or more years		
+Director	Developer	C: 6 to 10 years		
+Director	Analyst	C: 6 to 10 years		
+Director	Analyst	D: 11 or more years		
+Director		A: 2 or fewer years		
+Director		C: 6 to 10 years		
+Director		D: 11 or more years		
+Director		D: 11 or more years		
+Director Analytics	Leadership	C: 6 to 10 years		Marketing
+Director Business Analytics	Leadership	C: 6 to 10 years		Finance
+Director Data Services	Leadership	C: 6 to 10 years	Non-profit	
+Director Financial Decision Support	Leadership	C: 6 to 10 years		Healthcare/medical
+Director of Analytics	Leadership	C: 6 to 10 years	2 or more	Information technology
+Director of Analytics	Leadership	D: 11 or more years	Private sector	
+Director of Analytics and Compliance	Leadership	C: 6 to 10 years	Non-profit	
+Director of Analytics Engineering	Leadership	D: 11 or more years	Private sector	2 or more
+Director of Climate Analysis	Leadership	C: 6 to 10 years	Public sector (government)	
+Director of Communication	Leadership	D: 11 or more years	Non-profit	Healthcare/medical
+Director of Data	Leadership	B: 3 to 5 years	Academia	
+Director of Data	Leadership	C: 6 to 10 years		
+Director of Data		C: 6 to 10 years		
+Director of Data		D: 11 or more years	Academia	
+Director of Data Analysis	Leadership	C: 6 to 10 years		Consulting
+Director of Data Strategy	Leadership	D: 11 or more years		Finance
+Director of Design	Leadership	A: 2 or fewer years		Marketing
+Director of Design	Designer	D: 11 or more years	Private sector	2 or more
+Director of Enablement	Leadership	D: 11 or more years		Information technology
+Director of Engineering	Engineer	D: 11 or more years	Private sector	
+Director of Engineering		D: 11 or more years		
+Director of Evaluation	Leadership	C: 6 to 10 years	Non-profit	
+Director of Innovation & Marketing	Leadership	C: 6 to 10 years		
+Director of Institutional Effectiveness	Leadership	B: 3 to 5 years	Non-profit	
+Director of Institutional Research	Leadership	D: 11 or more years	Academia	
+Director of Institutional Research	Analyst	B: 3 to 5 years	Academia	
+Director of Institutional Research	Analyst	C: 6 to 10 years	Academia	
+Director of Institutional Research		A: 2 or fewer years	Academia	
+Director of Measurement, Evaluation, and Learning	Leadership	B: 3 to 5 years	Non-profit	
+Director of Operational Analytics	Analyst	C: 6 to 10 years	Academia	
+Director of Operations	Analyst	D: 11 or more years	Non-profit	
+Director of People Analytics		D: 11 or more years		
+Director of Performance Improvement	Leadership	A: 2 or fewer years		
+Director of Product	Leadership	C: 6 to 10 years		Information technology
+Director of Research	Leadership	C: 6 to 10 years	Non-profit	
+Director of Research	Leadership	C: 6 to 10 years		Information technology
+Director of Research & Evaluation	Leadership	B: 3 to 5 years	Non-profit	
+Director of Research, Data and Analytics	Leadership	C: 6 to 10 years	Non-profit	
+Director of Workforce Analytics	Leadership	C: 6 to 10 years		Healthcare/medical
+Director R&D		C: 6 to 10 years		
+Director, Analytics	Leadership	A: 2 or fewer years		Information technology
+Director, Analytics	Leadership	D: 11 or more years		
+Director, Business Intelligence	Leadership	D: 11 or more years	Private sector	Information technology
+Director, Business Intelligence	Leadership	D: 11 or more years		Finance
+Director, Data and Analytics	Leadership	C: 6 to 10 years		Finance
+Director, Data and Analytics	Leadership	D: 11 or more years	Academia	
+Director, Data and Evaluation		C: 6 to 10 years	Non-profit	
+Director, Data Asset Methods & Infrastructure		D: 11 or more years		
+Director, Data Visualization	Leadership	C: 6 to 10 years	Private sector	
+Director, Data Visualization	Designer	B: 3 to 5 years		Consulting
+Director, Digital Marketing	Leadership	B: 3 to 5 years		2 or more
+Director, Graphics	Journalist	C: 6 to 10 years		Journalism
+Director, Independent Consultant	Leadership	D: 11 or more years	Academia	
+Director, Institutional Assessment	Leadership	B: 3 to 5 years	Public sector (government)	
+Director, Marketing Analytics		B: 3 to 5 years		
+Director, Marketing Research and Analytics	Leadership	D: 11 or more years		Information technology
+Director, Talent Analytics	Leadership	B: 3 to 5 years		Healthcare/medical
+Division Assessment Officer	Analyst	D: 11 or more years	Academia	
+E-Commerce Business Operator	Analyst	A: 2 or fewer years		
+Ecologist	Scientist	D: 11 or more years	Public sector (government)	
+Editorial Consultant	Journalist	C: 6 to 10 years		Journalism
+Editorial Developer	Journalist	A: 2 or fewer years	Public sector (government)	Journalism
+Editorial Developer	Journalist	C: 6 to 10 years		Journalism
+Editorial Developer	Developer	C: 6 to 10 years		2 or more
+Education Researcher	Analyst	D: 11 or more years	Public sector (government)	
+Education Researcher	Analyst	D: 11 or more years	2 or more	
+Educator and Consultant	Teacher	D: 11 or more years		
+Electrical Design Engineer	Designer	A: 2 or fewer years	Public sector (government)	
+Employee		B: 3 to 5 years		
+End User Lead		B: 3 to 5 years		
+Engagement Manager	Analyst	B: 3 to 5 years	Academia	Journalism
+Engagement Specialist	Teacher	B: 3 to 5 years	Non-profit	Consulting
+Engineer / Director	Analyst	A: 2 or fewer years		
+Enterprise Data Advisor		D: 11 or more years		2 or more
+Enterprise HR Data Scientist	Scientist	C: 6 to 10 years		Healthcare/medical
+Environmental and Geospatial Data Scientist	Scientist	B: 3 to 5 years		
+Epidemiologist	Analyst	A: 2 or fewer years	Public sector (government)	Healthcare/medical
+Epidemiologist	Analyst	A: 2 or fewer years	Public sector (government)	Healthcare/medical
+Epidemiologist	Analyst	A: 2 or fewer years	Public sector (government)	
+Epidemiologist	Analyst	B: 3 to 5 years	Public sector (government)	
+Epidemiologist	Analyst	D: 11 or more years		
+Epidemiologist	Analyst	D: 11 or more years		
+Epidemiologist	Academic	B: 3 to 5 years		
+Epidemiology Specialist	Analyst	C: 6 to 10 years	Public sector (government)	Healthcare/medical
+Equity Data Scientist	Analyst	A: 2 or fewer years	Academia	
+ETL Data Engineer	Developer	C: 6 to 10 years	Public sector (government)	
+Evaluation Adviser	Analyst	C: 6 to 10 years	Non-profit	
+Evaluation Consultant	Analyst	C: 6 to 10 years		
+Evaluation Consultant		B: 3 to 5 years		
+Evaluation Coordinator	Analyst	C: 6 to 10 years	Academia	
+Evaluation Director	Leadership	C: 6 to 10 years	Non-profit	
+Evaluation Manager	Analyst	C: 6 to 10 years	Non-profit	
+Evaluation Manager		B: 3 to 5 years	2 or more	Healthcare/medical
+Evaluation Officer		A: 2 or fewer years		
+Evaluation Specialist	Analyst	C: 6 to 10 years	Non-profit	
+Evaluation Specialist		C: 6 to 10 years	Non-profit	
+Evaluator		D: 11 or more years	Academia	
+Executive	Analyst	A: 2 or fewer years		2 or more
+Executive Director	Leadership	B: 3 to 5 years	Non-profit	
+Executive Director	Leadership	C: 6 to 10 years	Non-profit	
+Experience Designer	Designer	D: 11 or more years		Information technology
+Faculty Lead, Geospatial Data Analytics	Academic	B: 3 to 5 years		
+Faculty Member	Academic	C: 6 to 10 years		
+Fellow	Academic	C: 6 to 10 years		
+Fellow		A: 2 or fewer years	Public sector (government)	
+Finance Analyst		B: 3 to 5 years		
+FInance and Strategic Operations Analyst	Analyst	B: 3 to 5 years	Academia	
+Finance Manager	Analyst	B: 3 to 5 years		
+Finance Operations Manager	Leadership	C: 6 to 10 years	Public sector (government)	
+Flight Test Engineer	Analyst	B: 3 to 5 years	Public sector (government)	
+Founder	Developer	C: 6 to 10 years		
+Founder	Developer	C: 6 to 10 years		
+Founder		B: 3 to 5 years		
+Founder		D: 11 or more years		
+Founder / President	Leadership	C: 6 to 10 years		
+Founder, Chief Architect	Journalist	A: 2 or fewer years		
+Founder, Principal	Designer	D: 11 or more years		
+Founder, Principal	Analyst	A: 2 or fewer years		
+Founder, Principal		C: 6 to 10 years		
+Fraud Analyst		A: 2 or fewer years		
+Freelancer	Scientist	A: 2 or fewer years		
+Freelancer	Designer	A: 2 or fewer years		
+Freelancer	Analyst	C: 6 to 10 years		
+Freelancer		A: 2 or fewer years		
+Freelancer		C: 6 to 10 years		
+Front End Software Developer	Engineer	C: 6 to 10 years	Private sector	
+Front End Web Developer	Developer	C: 6 to 10 years	Public sector (government)	
+Frontend Developer		A: 2 or fewer years		
+Frontend Dngineer	Engineer	B: 3 to 5 years	Non-profit	Information technology
+Full Stack Developer	Engineer	A: 2 or fewer years		Information technology
+Full Stack Developer	Engineer	C: 6 to 10 years		Information technology
+Geographer	Analyst	B: 3 to 5 years	Public sector (government)	
+Geographic Information Analyst	Cartographer	A: 2 or fewer years	Public sector (government)	
+Geospatial Consultant	Analyst	D: 11 or more years		
+Geospatial Implementation Specialist	Analyst	C: 6 to 10 years	Private sector	
+Geospatial Solutions Engineer	Engineer	C: 6 to 10 years	Private sector	Information technology
+GIS Analyst	Cartographer	B: 3 to 5 years		Consulting
+GIS Outreach Coordinator	Academic	C: 6 to 10 years		
+GIS Specialist	Cartographer	B: 3 to 5 years	Public sector (government)	Information technology
+GIS Specialist	Analyst	B: 3 to 5 years		
+Graduate Student	Student	A: 2 or fewer years		
+Graduate Student	Student	A: 2 or fewer years		
+Graduate Student	Student	B: 3 to 5 years		
+Graduate Student	Student	B: 3 to 5 years		
+Graduate Student	Student	C: 6 to 10 years		
+Graduate Student / Research Assistant	Student	B: 3 to 5 years		
+Graphic and Information Designer		A: 2 or fewer years		
+Graphic Designer	Designer	A: 2 or fewer years		Journalism
+Graphic Designer	Designer	B: 3 to 5 years	Academia	
+Graphic Designer	Designer	B: 3 to 5 years		
+Graphic Designer	Designer	C: 6 to 10 years		
+Graphics Editor	Journalist	A: 2 or fewer years		Journalism
+Graphics Editor	Journalist	B: 3 to 5 years		Journalism
+Graphics Editor	Designer	D: 11 or more years	Public sector (government)	
+Graphics Intern	Student	A: 2 or fewer years		
+Graphics Intern	Journalist	A: 2 or fewer years		Journalism
+Graphics Journalist	Journalist	A: 2 or fewer years		
+Graphics Reporter	Journalist	B: 3 to 5 years		Journalism
+Graphics Reporter	Journalist	B: 3 to 5 years		Journalism
+Graphics Reporter		A: 2 or fewer years		
+Graphics Specialist	Designer	D: 11 or more years		Marketing
+Head of Analytics	Analyst	B: 3 to 5 years	Academia	
+Head of Business Intelligence	Analyst	C: 6 to 10 years		Marketing
+Head of Business Intelligence		B: 3 to 5 years		
+Head of Communications	Leadership	C: 6 to 10 years	Private sector	Journalism
+Head of Data	Engineer	C: 6 to 10 years		Information technology
+Head of Data & Analytics	Leadership	B: 3 to 5 years		Finance
+Head of Data & Analytics	Leadership	C: 6 to 10 years		Finance
+Head of Data Analytics	Leadership	D: 11 or more years	Private sector	
+Head of Data Analytics	Leadership	D: 11 or more years		Finance
+Head of Data Innovation	Analyst	D: 11 or more years	Public sector (government)	
+Head of Data Insights	Analyst	C: 6 to 10 years		
+Head of Data Science		D: 11 or more years		
+Head of Data Visualisation	Leadership	C: 6 to 10 years	Private sector	Marketing
+Head of Data Visualisation	Leadership	D: 11 or more years		Journalism
+Head of Design		A: 2 or fewer years		
+Head of Enablement	Leadership	C: 6 to 10 years		Information technology
+Head of Human Resources	Leadership	D: 11 or more years		Information technology
+Head of Operational Excellence	Leadership	C: 6 to 10 years		Finance
+Head of Product	Engineer	C: 6 to 10 years	Private sector	Information technology
+Head of Projects	Leadership	C: 6 to 10 years	Private sector	
+Head of Research	Leadership	C: 6 to 10 years	2 or more	
+Head of Visual Design	Designer	C: 6 to 10 years		Consulting
+Head Sales Operations		B: 3 to 5 years		
+Health Care Reporting Analyst	Analyst	C: 6 to 10 years	2 or more	Healthcare/medical
+Health Communication Specialist		A: 2 or fewer years	Public sector (government)	
+Health Data Analyst	Analyst	B: 3 to 5 years	Public sector (government)	Healthcare/medical
+Health Program Specialist		C: 6 to 10 years		
+Healthcare Data Analyst	Analyst	B: 3 to 5 years		2 or more
+Hobbyist		A: 2 or fewer years		
+HR Analyst	Analyst	D: 11 or more years		
+HR Data Analyst	Analyst	A: 2 or fewer years	Academia	
+HR Data Analyst	Analyst	B: 3 to 5 years	Private sector	
+Human-Computer Interaction Researcher	Scientist	A: 2 or fewer years	Academia	Information technology
+Impact Director	Leadership	C: 6 to 10 years	2 or more	
+In between jobs at the moment		B: 3 to 5 years		
+Independent Consultant	Analyst	C: 6 to 10 years		
+Independent Contractor	Analyst	C: 6 to 10 years		
+Industrial Engineering Business Operations Project/Program Manager		D: 11 or more years		
+Infographic Designer / Graphic Artist	Designer	D: 11 or more years		
+Infographics Designer	Designer	C: 6 to 10 years		Journalism
+Infographics Designer	Designer	D: 11 or more years		Journalism
+Infographics Editor	Leadership	C: 6 to 10 years		Journalism
+Information Analyst	Analyst	B: 3 to 5 years		
+Information Analyst		B: 3 to 5 years		
+Information Design Consultant	Designer	B: 3 to 5 years		
+Information Designer	Designer	A: 2 or fewer years		
+Information Designer	Designer	B: 3 to 5 years	Non-profit	
+Information Designer	Designer	B: 3 to 5 years	Non-profit	
+Information Designer	Designer	B: 3 to 5 years	Academia	Journalism
+Information Designer	Designer	B: 3 to 5 years		Consulting
+Information Designer	Designer	B: 3 to 5 years		
+Information Designer	Designer	B: 3 to 5 years		
+Information Designer	Designer	B: 3 to 5 years		
+Information Designer	Designer	C: 6 to 10 years	Private sector	
+Information Designer	Designer	C: 6 to 10 years	Non-profit	
+Information Designer	Designer	C: 6 to 10 years		
+Information Designer	Designer	C: 6 to 10 years		
+Information Designer	Designer	D: 11 or more years		
+Information Designer	Designer	D: 11 or more years		
+Information Designer	Designer	D: 11 or more years		
+Information Designer		B: 3 to 5 years		
+Information Management Specialist	Analyst	A: 2 or fewer years		
+Information Management Specialist	Analyst	B: 3 to 5 years		
+Information Specialist	Analyst	B: 3 to 5 years	Academia	
+Information Visualization Scientist	Designer	C: 6 to 10 years	2 or more	
+Information Wrangler	Designer	D: 11 or more years		
+Insight Consultant	Analyst	B: 3 to 5 years		2 or more
+Insight Research Officer		A: 2 or fewer years		
+Insights Analyst	Analyst	B: 3 to 5 years		Marketing
+Insights Analyst	Analyst	C: 6 to 10 years		
+Insights Analytics Expert	Developer	D: 11 or more years	2 or more	2 or more
+Insights Consultant	Analyst	B: 3 to 5 years	Private sector	
+Insights Data Analyst		A: 2 or fewer years		
+Insights Lead	Analyst	B: 3 to 5 years	Public sector (government)	Information technology
+Institutional Research Analyst	Analyst	C: 6 to 10 years		
+Institutional Research Specialist	Analyst	C: 6 to 10 years	Academia	
+Institutional Researcher	Analyst	C: 6 to 10 years	Non-profit	
+Interaction Designer		A: 2 or fewer years		
+Interactive Data Journalist	Designer	C: 6 to 10 years	Private sector	Journalism
+Interactive Developer	Developer	C: 6 to 10 years		Journalism
+Intern	Analyst	B: 3 to 5 years		Finance
+Internal Evaluator / Associate Director		C: 6 to 10 years	Academia	
+International Relations Analyst		A: 2 or fewer years		
+IT Analyst		B: 3 to 5 years		
+IT Analyst, BI Developer	Developer	B: 3 to 5 years		Healthcare/medical
+IT Data Management Coordinator	Analyst	C: 6 to 10 years	Public sector (government)	
+IT Specialist	Analyst	A: 2 or fewer years	Public sector (government)	Information technology
+Junior Consultant	Developer	B: 3 to 5 years		Consulting
+Junior PowerBI Analyst	Analyst	A: 2 or fewer years		Information technology
+Junior Professional	Scientist	B: 3 to 5 years		
+Junior Researcher	Academic	B: 3 to 5 years		
+Junior Researcher	Academic	C: 6 to 10 years		
+Junior Researcher		A: 2 or fewer years		
+Lab Technician	Scientist	C: 6 to 10 years	Private sector	Healthcare/medical
+Lead Analyst	Analyst	B: 3 to 5 years		
+Lead Analyst	Analyst	C: 6 to 10 years		
+Lead BI Consultant		C: 6 to 10 years		
+Lead Business Intelligence Analyst	Analyst	C: 6 to 10 years		
+Lead Cartographer	Cartographer	D: 11 or more years	Non-profit	
+Lead Consultant		B: 3 to 5 years		
+Lead Data Analyst	Leadership	C: 6 to 10 years		
+Lead Data Analyst	Developer	D: 11 or more years	Private sector	Finance
+Lead Data Analyst	Analyst	B: 3 to 5 years		Healthcare/medical
+Lead Data Analyst	Analyst	C: 6 to 10 years	Private sector	Finance
+Lead Data Analyst	Analyst	D: 11 or more years		Information technology
+Lead Data Consultant	Analyst	C: 6 to 10 years		Information technology
+Lead Data Consultant	Analyst	C: 6 to 10 years		Consulting
+Lead Data Engineer	Teacher	C: 6 to 10 years		2 or more
+Lead Data Scientist	Scientist	C: 6 to 10 years		Information technology
+Lead Data Scientist	Developer	D: 11 or more years	2 or more	2 or more
+Lead Data Visualisation Producer	Journalist	B: 3 to 5 years	Public sector (government)	
+Lead Data Visualization Designer	Analyst	C: 6 to 10 years	2 or more	Healthcare/medical
+Lead Data Visualization Engineer	Engineer	C: 6 to 10 years		Information technology
+Lead Designer	Designer	C: 6 to 10 years		Journalism
+Lead Experience Designer	Designer	C: 6 to 10 years	Private sector	
+Lead Graphic Designer	Designer	B: 3 to 5 years	Private sector	
+Lead Product Manager		B: 3 to 5 years		
+Lead Software Architect	Engineer	B: 3 to 5 years		Finance
+Lead Software Engineer		B: 3 to 5 years		
+Lead, Data Visualization	Leadership	C: 6 to 10 years		Consulting
+Lead, Data Visualization & BI	Analyst	B: 3 to 5 years	Private sector	
+Lead, Research and Data Analytics	Leadership	C: 6 to 10 years	Non-profit	Healthcare/medical
+Learning & Evaluation Associate	Analyst	A: 2 or fewer years	Non-profit	
+Lecturer	Designer	C: 6 to 10 years		
+Lecturer	Academic	A: 2 or fewer years		
+Lecturer	Academic	A: 2 or fewer years		
+Lecturer	Academic	B: 3 to 5 years		
+Lecturer	Academic	C: 6 to 10 years		
+Lecturer	Academic	D: 11 or more years		
+Library Data Coordinator		B: 3 to 5 years	Public sector (government)	
+Logistics & Supply Chain Analyst		A: 2 or fewer years		
+M&E Advisor	Analyst	B: 3 to 5 years	Non-profit	
+M&E Specialist	Leadership	B: 3 to 5 years	Public sector (government)	
+Machine Learning Engineer	Engineer	A: 2 or fewer years		Information technology
+Machine Learning Engineer		C: 6 to 10 years		
+Machine Learning Engineer		D: 11 or more years		
+Manager	Leadership	B: 3 to 5 years		Finance
+Manager	Leadership	C: 6 to 10 years		Healthcare/medical
+Manager	Leadership	C: 6 to 10 years		Finance
+Manager	Leadership	D: 11 or more years	Non-profit	Consulting
+Manager	Analyst	A: 2 or fewer years		Marketing
+Manager	Analyst	C: 6 to 10 years	Public sector (government)	Consulting
+Manager		B: 3 to 5 years		
+Manager		C: 6 to 10 years		
+Manager		C: 6 to 10 years		
+Manager of Commercial Analytics	Analyst	B: 3 to 5 years		Healthcare/medical
+Manager of Data Visualization	Designer	C: 6 to 10 years		Healthcare/medical
+Manager of Data, Reporting and Evaluation	Leadership	B: 3 to 5 years	Non-profit	
+Manager, Analytics	Leadership	B: 3 to 5 years		Finance
+Manager, Analytics	Leadership	C: 6 to 10 years	Private sector	Marketing
+Manager, Analytics	Leadership	C: 6 to 10 years		
+Manager, Analytics	Leadership	D: 11 or more years	Academia	2 or more
+Manager, Analytics	Leadership	D: 11 or more years		2 or more
+Manager, Analytics	Analyst	C: 6 to 10 years		Finance
+Manager, Analytics	Analyst	C: 6 to 10 years		
+Manager, Analytics	Analyst	C: 6 to 10 years		
+Manager, Analytics	Analyst	D: 11 or more years		Finance
+Manager, Business Intelligence	Leadership	B: 3 to 5 years		2 or more
+Manager, Business Intelligence	Leadership	C: 6 to 10 years		
+Manager, Clinical Data	Analyst	D: 11 or more years		Healthcare/medical
+Manager, Communications and Marketing	Leadership	B: 3 to 5 years		
+Manager, Monitoring and Evaluation	Leadership	C: 6 to 10 years		
+Managing Director	Developer	A: 2 or fewer years		
+Managing Partner		C: 6 to 10 years		
+Map Designer	Cartographer	B: 3 to 5 years	2 or more	2 or more
+Marketing and Communications	Designer	C: 6 to 10 years		
+Marketing and Communications Analyst	Analyst	B: 3 to 5 years	Non-profit	Healthcare/medical
+Marketing Data Analyst	Analyst	B: 3 to 5 years		Finance
+Marketing Officer	Analyst	C: 6 to 10 years	Public sector (government)	
+Marketing, Communication, and Brand Manager	Student	A: 2 or fewer years		
+Master of Social Work Student	Student	A: 2 or fewer years		
+Masters Student	Student	D: 11 or more years		
+Math Major, Undergrad	Student	A: 2 or fewer years		
+Medical Product Specialist	Student	A: 2 or fewer years		
+Medical Scientist	Scientist	B: 3 to 5 years	Public sector (government)	Healthcare/medical
+Member Insights Analyst	Analyst	C: 6 to 10 years	Non-profit	
+Membership Officer	Analyst	B: 3 to 5 years	Non-profit	
+MIS Analyst	Analyst	B: 3 to 5 years	Private sector	
+MIS Manager	Leadership	C: 6 to 10 years		
+Modeling/Forecasting Specialist	Analyst	C: 6 to 10 years		Finance
+Monitoring & Evaluation Consultant	Analyst	C: 6 to 10 years		Consulting
+Monitoring and Evaluation Coordinator		A: 2 or fewer years	Non-profit	
+Monitoring and Evaluation Specialist	Analyst	B: 3 to 5 years	2 or more	Consulting
+Monitoring and Evaluation Specialist		C: 6 to 10 years	2 or more	Journalism
+Monitoring, Evaluation, and Learning Specialist	Analyst	D: 11 or more years	Public sector (government)	
+n/a	Student	C: 6 to 10 years		
+Network Specialist		B: 3 to 5 years		
+Neuroscientist	Academic	B: 3 to 5 years		
+News Editor	Journalist	D: 11 or more years		Journalism
+Newsroom Developer	Journalist	B: 3 to 5 years		Journalism
+No titles in our company	Designer	D: 11 or more years		
+Officer		A: 2 or fewer years		
+Officer, Planning & Evaluation	Analyst	C: 6 to 10 years	Non-profit	
+Operation Specialist	Analyst	B: 3 to 5 years	Public sector (government)	
+Operations Analyst		B: 3 to 5 years		
+Operations Lead	Leadership	C: 6 to 10 years	Private sector	
+Operations Research Analyst	Analyst	B: 3 to 5 years	Public sector (government)	
+Operations Specialist	Student	A: 2 or fewer years		
+Outcomes & Evaluation Manager	Leadership	C: 6 to 10 years	Non-profit	
+Owner	Teacher	C: 6 to 10 years		
+Owner / Data Science Consultant		B: 3 to 5 years		
+Owner & Principal Consultant	Designer	D: 11 or more years		
+Owner and Evaluation Consultant		D: 11 or more years		
+Paramedic		A: 2 or fewer years		
+Partner	Leadership	D: 11 or more years	2 or more	2 or more
+Partner		C: 6 to 10 years		
+Partner		D: 11 or more years		
+Partner, Design Officer	Designer	B: 3 to 5 years		
+Partnership Manager, Data Analyst	Analyst	C: 6 to 10 years	Non-profit	
+Patron Experience Librarian		C: 6 to 10 years	Public sector (government)	
+Performance Analyst	Analyst	A: 2 or fewer years	Public sector (government)	
+Performance Analyst	Analyst	B: 3 to 5 years	Public sector (government)	Information technology
+PhD Candidate	Student	A: 2 or fewer years		
+PhD Candidate	Student	B: 3 to 5 years		
+PhD Candidate	Student	B: 3 to 5 years		
+PhD Candidate	Academic	B: 3 to 5 years		
+PhD Candidate	Academic	C: 6 to 10 years		
+PhD Researcher	Academic	B: 3 to 5 years		
+PhD Student	Student	A: 2 or fewer years		
+PhD Student	Student	A: 2 or fewer years		
+PhD Student	Student	B: 3 to 5 years		
+PhD Student	Student	C: 6 to 10 years		
+PhD Student	Student	C: 6 to 10 years		
+PhD Student	Designer	B: 3 to 5 years		
+PhD Student	Academic	B: 3 to 5 years		
+PhD Student	Academic	C: 6 to 10 years		
+PhD Student		C: 6 to 10 years		
+PhD Student, Research Assistant	Student	A: 2 or fewer years		
+Physical	Leadership	C: 6 to 10 years	Private sector	Information technology
+Planning Consultant	Analyst	A: 2 or fewer years		
+Portfolio Architect	Leadership	B: 3 to 5 years		
+Postdoc	Developer	C: 6 to 10 years		
+Postdoctoral Researcher	Academic	B: 3 to 5 years		
+Postgraduate Researcher	Student	B: 3 to 5 years		
+Practitioner	Journalist	C: 6 to 10 years		
+Presales Manager	Engineer	D: 11 or more years	Private sector	
+Presentation Designer	Designer	D: 11 or more years		Healthcare/medical
+President	Scientist	B: 3 to 5 years		
+President	Leadership	C: 6 to 10 years	Public sector (government)	Consulting
+President	Leadership	C: 6 to 10 years	2 or more	2 or more
+President	Designer	D: 11 or more years		
+President	Analyst	D: 11 or more years		
+Principal	Leadership	D: 11 or more years		
+Principal	Engineer	B: 3 to 5 years		
+Principal	Developer	D: 11 or more years		Consulting
+Principal Analyst	Analyst	C: 6 to 10 years	Public sector (government)	Healthcare/medical
+Principal Business Analyst	Analyst	A: 2 or fewer years		Healthcare/medical
+Principal Consultant	Leadership	B: 3 to 5 years	2 or more	Consulting
+Principal Consultant	Leadership	B: 3 to 5 years		Information technology
+Principal Consultant		B: 3 to 5 years		
+Principal Consultant		D: 11 or more years		
+Principal Data Analyst	Analyst	B: 3 to 5 years	Academia	
+Principal Data Developer	Developer	C: 6 to 10 years	Academia	
+Principal Data Scientist	Developer	D: 11 or more years	2 or more	Journalism
+Principal Data Scientist	Analyst	D: 11 or more years		Information technology
+Principal Data Visualization Designer	Leadership	D: 11 or more years		
+Principal Designer	Designer	D: 11 or more years		2 or more
+Principal Engineer / Software Architect	Engineer	C: 6 to 10 years		Information technology
+Principal Information Analyst	Analyst	C: 6 to 10 years		Healthcare/medical
+Principal Machine Learning Engineer	Engineer	D: 11 or more years		Information technology
+Principal Policy Analysis		D: 11 or more years	Public sector (government)	
+Principal Product Designer	Designer	C: 6 to 10 years	Private sector	2 or more
+Principal Software Engineer	Engineer	C: 6 to 10 years		Information technology
+Process Analyst	Analyst	B: 3 to 5 years	Private sector	
+Process Specialist	Engineer	D: 11 or more years	Private sector	
+Product Design Lead	Designer	A: 2 or fewer years	Private sector	
+Product Design Lead	Designer	C: 6 to 10 years	Private sector	Information technology
+Product Design Manager		B: 3 to 5 years		
+Product Designer	Student	A: 2 or fewer years		
+Product Designer	Designer	B: 3 to 5 years		Information technology
+Product Designer	Designer	B: 3 to 5 years		
+Product Designer	Designer	C: 6 to 10 years		Information technology
+Product Designer		A: 2 or fewer years		
+Product Engineer		A: 2 or fewer years		
+Product Lead		A: 2 or fewer years		Information technology
+Product Lead		A: 2 or fewer years		
+Product Manager	Student	A: 2 or fewer years	Private sector	Information technology
+Product Manager	Leadership	A: 2 or fewer years		Information technology
+Product Manager	Leadership	B: 3 to 5 years	Private sector	
+Product Manager	Leadership	B: 3 to 5 years		Information technology
+Product Manager	Leadership	C: 6 to 10 years		Finance
+Product Manager	Leadership	C: 6 to 10 years		
+Product Manager	Leadership	D: 11 or more years		Information technology
+Product Manager	Leadership	D: 11 or more years		2 or more
+Product Manager	Analyst	B: 3 to 5 years	Private sector	Marketing
+Product Manager		A: 2 or fewer years		
+Product Owner	Leadership	B: 3 to 5 years		Journalism
+Production Manager	Leadership	B: 3 to 5 years		Finance
+Professor	Leadership	C: 6 to 10 years	Academia	2 or more
+Professor	Leadership	D: 11 or more years		
+Professor	Academic	C: 6 to 10 years		
+Professor	Academic	C: 6 to 10 years		
+Professor	Academic	C: 6 to 10 years		
+Professor	Academic	C: 6 to 10 years		
+Professor	Academic	D: 11 or more years		
+Professor	Academic	D: 11 or more years		
+Professor	Academic	D: 11 or more years		
+Professor		D: 11 or more years		Finance
+Program & Grants Associate		A: 2 or fewer years	Non-profit	
+Program and Policy Analyst	Analyst	B: 3 to 5 years	Public sector (government)	Healthcare/medical
+Program Assistant, Illustrator	Designer	A: 2 or fewer years	Non-profit	
+Program Coordinator	Student	A: 2 or fewer years		
+Program Manager	Leadership	B: 3 to 5 years	2 or more	
+Program Manager	Leadership	D: 11 or more years	Public sector (government)	
+Program Manager	Analyst	C: 6 to 10 years	Private sector	
+Programmer	Developer	D: 11 or more years	Academia	
+Programmer Analyst	Developer	A: 2 or fewer years	Private sector	2 or more
+Project and Policy Analyst	Analyst	B: 3 to 5 years	Public sector (government)	Healthcare/medical
+Project Coordinator		A: 2 or fewer years		
+Project Leader		A: 2 or fewer years		
+Project Manager	Analyst	B: 3 to 5 years		
+Project Manager		A: 2 or fewer years		
+Project Manager		A: 2 or fewer years		
+Project Manager		B: 3 to 5 years	Non-profit	
+Project Manager		B: 3 to 5 years		Consulting
+Project Scientist	Academic	B: 3 to 5 years		
+Public Health Consultant	Scientist	B: 3 to 5 years		
+Public Health Researcher	Scientist	C: 6 to 10 years	Non-profit	
+Publications Designer	Designer	D: 11 or more years	2 or more	Healthcare/medical
+Purchasing Manager		B: 3 to 5 years	Private sector	
+QA		A: 2 or fewer years		
+Quality Engineer	Developer	B: 3 to 5 years		
+Quality Systems Engineer	Engineer	B: 3 to 5 years	Private sector	
+Quantitative Product Researcher		B: 3 to 5 years		
+Reporter	Analyst	C: 6 to 10 years		Finance
+Reporting Analyst	Analyst	B: 3 to 5 years		
+Reporting and Data Analyst	Analyst	B: 3 to 5 years	Private sector	Information technology
+Reporting and Data Quality Assistant	Analyst	B: 3 to 5 years	Non-profit	
+Reporting and Visualisation Manager	Developer	C: 6 to 10 years		Finance
+Reporting Manager		B: 3 to 5 years		
+Reporting Specialist	Developer	C: 6 to 10 years		Consulting
+Research Actuary		C: 6 to 10 years		
+Research Administrator		A: 2 or fewer years	Academia	Healthcare/medical
+Research Analyst	Analyst	A: 2 or fewer years	Non-profit	
+Research Analyst	Analyst	B: 3 to 5 years	Private sector	Marketing
+Research Analyst	Analyst	C: 6 to 10 years	Private sector	Healthcare/medical
+Research Analyst	Analyst	D: 11 or more years	Academia	
+Research Analyst		B: 3 to 5 years	Non-profit	
+Research and Data Analyst	Analyst	C: 6 to 10 years	Non-profit	
+Research and Data Analyst	Analyst	C: 6 to 10 years	Non-profit	
+Research and Data Analytics Director		D: 11 or more years		
+Research and Data Specialist	Analyst	C: 6 to 10 years	Non-profit	
+Research and Evaluation Analyst	Analyst	B: 3 to 5 years	Public sector (government)	
+Research and Evaluation Manager	Leadership	B: 3 to 5 years	Non-profit	
+Research and Evaluation Manager	Leadership	B: 3 to 5 years	Non-profit	
+Research and Evaluation Manager	Leadership	C: 6 to 10 years	Non-profit	
+Research and Evaluation Manager	Analyst	C: 6 to 10 years	Non-profit	
+Research and Evaluation Specialist		C: 6 to 10 years	Public sector (government)	
+Research and Planning Consultant	Analyst	B: 3 to 5 years	Academia	
+Research and Project Manager	Analyst	B: 3 to 5 years		
+Research Assistant	Scientist	B: 3 to 5 years	Non-profit	
+Research Assistant	Analyst	A: 2 or fewer years	2 or more	
+Research Assistant	Analyst	B: 3 to 5 years	2 or more	
+Research Assistant	Academic	A: 2 or fewer years		
+Research Assistant	Academic	B: 3 to 5 years		
+Research Assistant	Academic	B: 3 to 5 years		
+Research Assistant	Academic	B: 3 to 5 years		
+Research Assistant		A: 2 or fewer years		
+Research Assistant & Project Manager		B: 3 to 5 years		Consulting
+Research Assistant Professor	Academic	D: 11 or more years		
+Research Associate	Scientist	A: 2 or fewer years	Non-profit	
+Research Associate	Scientist	C: 6 to 10 years	Public sector (government)	
+Research Associate	Developer	B: 3 to 5 years	Academia	
+Research Associate	Analyst	A: 2 or fewer years		Consulting
+Research Associate	Analyst	B: 3 to 5 years	Public sector (government)	
+Research Associate	Academic	A: 2 or fewer years		
+Research Associate	Academic	B: 3 to 5 years		
+Research Associate	Academic	C: 6 to 10 years		
+Research Associate		B: 3 to 5 years	Non-profit	
+Research Associate		B: 3 to 5 years		Consulting
+Research Associate		B: 3 to 5 years		Consulting
+Research Associate		B: 3 to 5 years		
+Research Associate		B: 3 to 5 years		
+Research Associate / Evaluator		A: 2 or fewer years		
+Research Communications Analyst	Analyst	C: 6 to 10 years	Non-profit	
+Research Consultant	Analyst	A: 2 or fewer years		
+Research Coordinator		B: 3 to 5 years	Non-profit	
+Research Data Analyst	Analyst	B: 3 to 5 years	Non-profit	
+Research Data Analyst	Analyst	C: 6 to 10 years	Academia	Healthcare/medical
+Research Data Analyst	Analyst	C: 6 to 10 years	Academia	
+Research Officer		C: 6 to 10 years	Non-profit	
+Research Professor	Academic	C: 6 to 10 years		
+Research Scientist	Scientist	B: 3 to 5 years	Non-profit	
+Research Scientist	Scientist	C: 6 to 10 years	Public sector (government)	
+Research Scientist	Scientist	C: 6 to 10 years	Private sector	Information technology
+Research Scientist	Scientist	C: 6 to 10 years		Healthcare/medical
+Research Scientist	Academic	D: 11 or more years		
+Research Scientist		C: 6 to 10 years		
+Research Software Specialist	Academic	D: 11 or more years		
+Research Specialist	Analyst	C: 6 to 10 years	Public sector (government)	
+Researcher	Analyst	B: 3 to 5 years	Public sector (government)	
+Researcher	Analyst	B: 3 to 5 years	Non-profit	
+Researcher	Academic	B: 3 to 5 years		
+Researcher	Academic	B: 3 to 5 years		
+Researcher	Academic	B: 3 to 5 years		
+Researcher	Academic	C: 6 to 10 years		
+Researcher	Academic	D: 11 or more years		
+Researcher		C: 6 to 10 years	Non-profit	Consulting
+Researcher, Freelancer	Academic	C: 6 to 10 years		
+Retail Business Analyst	Analyst	B: 3 to 5 years	Academia	
+Retail Operations	Analyst	A: 2 or fewer years		
+Risk Specialist	Analyst	B: 3 to 5 years		
+S		A: 2 or fewer years		
+S		B: 3 to 5 years		
+Sage	Analyst	C: 6 to 10 years		Healthcare/medical
+Sales Analyst	Analyst	C: 6 to 10 years		
+Sales and Marketing Analyst	Analyst	C: 6 to 10 years		Healthcare/medical
+Sales Engineer	Analyst	D: 11 or more years		Information technology
+Sales Manager		A: 2 or fewer years		
+Sales Support Manager	Analyst	B: 3 to 5 years	Private sector	
+Scholar	Academic	D: 11 or more years		
+School Data Analyst	Analyst	A: 2 or fewer years	Academia	
+Science Manager	Leadership	C: 6 to 10 years	Private sector	Information technology
+Scientific and Medical Illustrator		D: 11 or more years	Academia	
+Scientific Associate	Scientist	C: 6 to 10 years		Healthcare/medical
+Scientific Associate	Analyst	B: 3 to 5 years	Public sector (government)	
+Scientific Employee	Scientist	C: 6 to 10 years	Public sector (government)	Information technology
+Scientist	Scientist	B: 3 to 5 years		
+Scientist		A: 2 or fewer years		
+Self employed		C: 6 to 10 years		
+Senior Analyst	Analyst	A: 2 or fewer years		Finance
+Senior Analyst	Analyst	B: 3 to 5 years	Private sector	
+Senior Analyst	Analyst	B: 3 to 5 years		Healthcare/medical
+Senior Analyst	Analyst	B: 3 to 5 years		
+Senior Analyst	Analyst	C: 6 to 10 years	Academia	
+Senior Analyst		A: 2 or fewer years		
+Senior Analyst		C: 6 to 10 years		
+Senior Analyst		D: 11 or more years		
+Senior Analyst, Business Analysis	Analyst	B: 3 to 5 years		
+Senior Assessment and Research Analyst	Analyst	C: 6 to 10 years	Academia	
+Senior Associate	Analyst	B: 3 to 5 years		
+Senior Associate		B: 3 to 5 years	2 or more	Healthcare/medical
+Senior Associate Director for Analytics	Analyst	D: 11 or more years	Academia	
+Senior Associate for Research and Programs	Analyst	C: 6 to 10 years	Non-profit	
+Senior BI Analyst	Analyst	C: 6 to 10 years	Private sector	Healthcare/medical
+Senior BI Analyst	Analyst	D: 11 or more years		Healthcare/medical
+Senior Biostatistician	Scientist	D: 11 or more years	Non-profit	Healthcare/medical
+Senior Business Analyst	Analyst	B: 3 to 5 years	Private sector	
+Senior Business Analyst	Analyst	D: 11 or more years		
+Senior Business Intelligence Analyst	Analyst	B: 3 to 5 years	Private sector	
+Senior Business Intelligence Analyst	Analyst	B: 3 to 5 years	Private sector	
+Senior Business Intelligence Analyst	Analyst	B: 3 to 5 years		2 or more
+Senior Business Intelligence Analyst	Analyst	C: 6 to 10 years		Finance
+Senior Business Intelligence Data Analyst		A: 2 or fewer years		
+Senior Business Intelligence Developer	Developer	B: 3 to 5 years	Non-profit	
+Senior Business Intelligence Developer	Developer	C: 6 to 10 years	Private sector	
+Senior Business Intelligence Developer	Developer	C: 6 to 10 years		Healthcare/medical
+Senior Business Systems Analyst	Analyst	B: 3 to 5 years		
+Senior Consultant	Developer	C: 6 to 10 years	Private sector	
+Senior Consultant	Designer	C: 6 to 10 years	Private sector	2 or more
+Senior Consultant	Analyst	C: 6 to 10 years	2 or more	Information technology
+Senior Consultant	Analyst	D: 11 or more years		
+Senior Creative Service Manager	Designer	B: 3 to 5 years		
+Senior Data & Impact Analyst	Analyst	B: 3 to 5 years	Non-profit	
+Senior Data Analyst	Student	C: 6 to 10 years		
+Senior Data Analyst	Developer	B: 3 to 5 years		
+Senior Data Analyst	Analyst	A: 2 or fewer years	2 or more	
+Senior Data Analyst	Analyst	A: 2 or fewer years		Marketing
+Senior Data Analyst	Analyst	B: 3 to 5 years	Public sector (government)	
+Senior Data Analyst	Analyst	B: 3 to 5 years	Public sector (government)	
+Senior Data Analyst	Analyst	B: 3 to 5 years	Non-profit	Information technology
+Senior Data Analyst	Analyst	B: 3 to 5 years		Information technology
+Senior Data Analyst	Analyst	B: 3 to 5 years		Finance
+Senior Data Analyst	Analyst	B: 3 to 5 years		Consulting
+Senior Data Analyst	Analyst	B: 3 to 5 years		
+Senior Data Analyst	Analyst	B: 3 to 5 years		
+Senior Data Analyst	Analyst	B: 3 to 5 years		
+Senior Data Analyst	Analyst	C: 6 to 10 years	Public sector (government)	
+Senior Data Analyst	Analyst	C: 6 to 10 years	Private sector	Information technology
+Senior Data Analyst	Analyst	C: 6 to 10 years	Private sector	
+Senior Data Analyst	Analyst	C: 6 to 10 years	Private sector	
+Senior Data Analyst	Analyst	C: 6 to 10 years	Non-profit	
+Senior Data Analyst	Analyst	C: 6 to 10 years	Academia	
+Senior Data Analyst	Analyst	C: 6 to 10 years		Information technology
+Senior Data Analyst	Analyst	C: 6 to 10 years		Finance
+Senior Data Analyst	Analyst	C: 6 to 10 years		2 or more
+Senior Data Analyst	Analyst	D: 11 or more years	Public sector (government)	
+Senior Data Analyst		B: 3 to 5 years		
+Senior Data Analyst		C: 6 to 10 years		
+Senior Data Analyst / Visualization Engineer	Analyst	C: 6 to 10 years	Academia	
+Senior Data Associate	Leadership	B: 3 to 5 years		2 or more
+Senior Data Designer	Leadership	B: 3 to 5 years		Information technology
+Senior Data Engineer	Engineer	B: 3 to 5 years		Information technology
+Senior Data Journalist	Journalist	B: 3 to 5 years		Journalism
+Senior Data Reporter	Journalist	C: 6 to 10 years		Journalism
+Senior Data Scientist	Scientist	C: 6 to 10 years	Private sector	Information technology
+Senior Data Scientist	Scientist	C: 6 to 10 years		Information technology
+Senior Data Scientist	Scientist	D: 11 or more years	Public sector (government)	Healthcare/medical
+Senior Data Scientist	Engineer	C: 6 to 10 years	Private sector	Information technology
+Senior Data Scientist	Analyst	B: 3 to 5 years	Non-profit	
+Senior Data Systems Analyst	Analyst	C: 6 to 10 years	Non-profit	
+Senior Data Visualisation Consultant	Analyst	C: 6 to 10 years		
+Senior Data Visualization	Developer	B: 3 to 5 years		
+Senior Data Visualization & Analytics Consultant	Developer	D: 11 or more years		
+Senior Data Visualization Analyst	Analyst	B: 3 to 5 years		Consulting
+Senior Data Visualization Analyst	Analyst	B: 3 to 5 years		
+Senior Data Visualization Analyst	Analyst	C: 6 to 10 years	Academia	
+Senior Data Visualization Designer	Designer	B: 3 to 5 years		Finance
+Senior Data Visualization Designer	Designer	B: 3 to 5 years		Finance
+Senior Data Visualization Designer	Designer	B: 3 to 5 years		Consulting
+Senior Data Visualization Designer	Designer	B: 3 to 5 years		Consulting
+Senior Data Visualization Designer	Designer	C: 6 to 10 years		Information technology
+Senior Data Visualization Designer	Designer	C: 6 to 10 years		
+Senior Data Visualization Designer	Analyst	C: 6 to 10 years	Public sector (government)	
+Senior Data Visualization Developer	Developer	B: 3 to 5 years		
+Senior Data Visualization Developer	Developer	C: 6 to 10 years		Information technology
+Senior Data Visualization Editor	Designer	D: 11 or more years		Consulting
+Senior Data Visualization Engineer	Engineer	B: 3 to 5 years		Information technology
+Senior Data Visualization Engineer	Engineer	B: 3 to 5 years		2 or more
+Senior Data Visualization Engineer	Developer	B: 3 to 5 years		Consulting
+Senior Data Visualization Engineer	Designer	C: 6 to 10 years		Journalism
+Senior Database Analyst / Programmer	Analyst	D: 11 or more years		Healthcare/medical
+Senior Design Engineer	Designer	C: 6 to 10 years	Private sector	Information technology
+Senior Designer	Designer	B: 3 to 5 years	Private sector	2 or more
+Senior Designer	Designer	D: 11 or more years		
+Senior Developer		A: 2 or fewer years		
+Senior Developer		C: 6 to 10 years		
+Senior Digital Marketing Specialist	Analyst	D: 11 or more years		2 or more
+Senior Director Analytics	Analyst	D: 11 or more years	Private sector	Marketing
+Senior Director Data Visualization		B: 3 to 5 years		
+Senior Director, Client Analysis	Leadership	C: 6 to 10 years		
+Senior Director, Data		D: 11 or more years		
+Senior Director, Data Journalism	Leadership	B: 3 to 5 years	Private sector	Journalism
+Senior Evaluator	Analyst	D: 11 or more years		
+Senior Evaluator		D: 11 or more years		
+Senior Financial Economist	Scientist	D: 11 or more years	Public sector (government)	
+Senior Full-Stack Software Engineer		C: 6 to 10 years		
+Senior GIS Analyst	Analyst	B: 3 to 5 years	Public sector (government)	
+Senior Graphic Designer	Designer	B: 3 to 5 years	Non-profit	
+Senior Graphics Editor	Journalist	D: 11 or more years		Journalism
+Senior Graphics Editor		D: 11 or more years		
+Senior Healthcare Analyst	Analyst	B: 3 to 5 years	2 or more	2 or more
+Senior HR Analyst	Leadership	C: 6 to 10 years		Finance
+Senior Insights Analyst	Analyst	B: 3 to 5 years		Marketing
+Senior Intelligence Analyst		C: 6 to 10 years		
+Senior IT Developer	Developer	C: 6 to 10 years		
+Senior IT Officer - Dissemination	Scientist	B: 3 to 5 years		Information technology
+Senior Learning Designer	Designer	A: 2 or fewer years	Private sector	
+Senior Lecturer	Academic	B: 3 to 5 years		
+Senior Lecturer	Academic	D: 11 or more years		
+Senior Manager	Leadership	C: 6 to 10 years		Information technology
+Senior Manager	Leadership	D: 11 or more years	Non-profit	
+Senior Manager	Leadership	D: 11 or more years		Consulting
+Senior Manager	Analyst	B: 3 to 5 years		Healthcare/medical
+Senior Manager	Analyst	C: 6 to 10 years		Healthcare/medical
+Senior Manager		C: 6 to 10 years		
+Senior Manager		C: 6 to 10 years		
+Senior Manager Analytics	Analyst	B: 3 to 5 years		Marketing
+Senior Manager Business Development	Analyst	C: 6 to 10 years		
+Senior Manager Business Intelligence	Leadership	C: 6 to 10 years	Private sector	
+Senior Manager Business Intelligence	Analyst	C: 6 to 10 years		Finance
+Senior Manager of Data Visualisation	Leadership	C: 6 to 10 years		Finance
+Senior Manager, Learning & Evidence	Leadership	B: 3 to 5 years	Non-profit	
+Senior Marketing Analyst	Analyst	B: 3 to 5 years		Information technology
+Senior MEAL Officer	Analyst	D: 11 or more years		
+Senior Multimedia Producer	Designer	B: 3 to 5 years		Journalism
+Senior Platform Integration Manager		A: 2 or fewer years		
+Senior Presentation Designer		B: 3 to 5 years		
+Senior Principal UX Architect	Designer	C: 6 to 10 years		Information technology
+Senior Principle Software Engineer	Engineer	C: 6 to 10 years		Information technology
+Senior Product Designer	Designer	C: 6 to 10 years		Information technology
+Senior Product Designer	Designer	C: 6 to 10 years		Finance
+Senior Product Designer	Designer	D: 11 or more years		Information technology
+Senior Product Engineer	Engineer	C: 6 to 10 years		Information technology
+Senior Product Manager	Leadership	C: 6 to 10 years		2 or more
+Senior Product Manager		C: 6 to 10 years		
+Senior Product Owner, Data and Analytics	Leadership	D: 11 or more years		Information technology
+Senior Project Specialist	Analyst	C: 6 to 10 years	Non-profit	
+Senior R&D Manager	Developer	B: 3 to 5 years		Marketing
+Senior Research & Evaluation Specialist		D: 11 or more years	2 or more	
+Senior Research & Planning Analyst	Analyst	C: 6 to 10 years		
+Senior Research Analyst	Analyst	B: 3 to 5 years	Academia	
+Senior Research Analyst	Analyst	C: 6 to 10 years	Academia	
+Senior Research and Data Scientist	Analyst	B: 3 to 5 years	2 or more	2 or more
+Senior Research and Evaluation Consultant	Analyst			
+Senior Research Associate	Analyst	B: 3 to 5 years	2 or more	Healthcare/medical
+Senior Research Engineer	Scientist	B: 3 to 5 years	Academia	
+Senior Research Fellow	Analyst	B: 3 to 5 years		Healthcare/medical
+Senior Research Fellow	Academic	B: 3 to 5 years		
+Senior Research Scientist	Scientist	C: 6 to 10 years	Private sector	
+Senior Research Scientist		B: 3 to 5 years		
+Senior Research Scientist		C: 6 to 10 years		
+Senior Research Staff	Scientist	D: 11 or more years	2 or more	2 or more
+Senior Researcher	Teacher	D: 11 or more years	Public sector (government)	Information technology
+Senior Researcher	Academic	C: 6 to 10 years		
+Senior Researcher	Academic	C: 6 to 10 years		
+Senior Researcher		A: 2 or fewer years		
+Senior Scientific Officer	Leadership	B: 3 to 5 years	Public sector (government)	
+Senior Social Media Manager	Leadership	B: 3 to 5 years	Private sector	Finance
+Senior Software Engineer	Student	B: 3 to 5 years		
+Senior Software Engineer	Engineer	D: 11 or more years		Information technology
+Senior Software Engineer	Developer	C: 6 to 10 years	Private sector	
+Senior Software Engineer	Developer	C: 6 to 10 years		Finance
+Senior Software Implementation Specialist		C: 6 to 10 years		Information technology
+Senior Staff Software Engineer	Engineer	D: 11 or more years	2 or more	2 or more
+Senior Statistical Programmer	Developer	B: 3 to 5 years		Healthcare/medical
+Senior Statistician	Analyst	D: 11 or more years	Non-profit	Healthcare/medical
+Senior Tableau Consultant	Designer	B: 3 to 5 years		
+Senior Technical Specialist	Analyst	B: 3 to 5 years	2 or more	
+Senior Training Specialist	Teacher	B: 3 to 5 years	Private sector	Healthcare/medical
+Senior User Experience Architect	Designer	C: 6 to 10 years		Information technology
+Senior User Interface Designer	Designer	A: 2 or fewer years		Healthcare/medical
+Senior UX Designer	Engineer	D: 11 or more years		Healthcare/medical
+Senior UX Designer	Designer	B: 3 to 5 years		Healthcare/medical
+Senior UX Engineer	Engineer	B: 3 to 5 years	Private sector	
+Senior Visualisation Designer	Analyst	B: 3 to 5 years		Finance
+Senior Visualization Designer	Designer	B: 3 to 5 years		Healthcare/medical
+Senior Visualization Developer	Developer	B: 3 to 5 years	Private sector	
+Senior Visualization Expert	Developer	C: 6 to 10 years		Consulting
+Social Science Researcher	Analyst	A: 2 or fewer years	2 or more	Consulting
+Software Architect		A: 2 or fewer years		
+Software Designer and Engineer	Developer	D: 11 or more years		
+Software Developer	Student	B: 3 to 5 years		
+Software Developer	Developer	B: 3 to 5 years	Non-profit	
+Software Developer		B: 3 to 5 years		
+Software Engineer	Engineer	B: 3 to 5 years		Information technology
+Software Engineer	Engineer	C: 6 to 10 years	Private sector	Marketing
+Software Engineer	Engineer	C: 6 to 10 years		Information technology
+Software Engineer	Engineer	C: 6 to 10 years		Information technology
+Software Engineer	Engineer	C: 6 to 10 years		Information technology
+Software Engineer	Engineer	D: 11 or more years		Healthcare/medical
+Software Engineer	Developer	C: 6 to 10 years		Information technology
+Software Engineer	Developer	D: 11 or more years		Journalism
+Software Engineer	Analyst	A: 2 or fewer years	Private sector	Finance
+Software Engineer		A: 2 or fewer years		
+Software Engineer / Data Analyst	Developer	A: 2 or fewer years		Finance
+Software Manager	Leadership	B: 3 to 5 years	2 or more	Healthcare/medical
+Solution Architect	Developer	C: 6 to 10 years		Information technology
+Solution Architect		B: 3 to 5 years		Consulting
+Solution Architect		C: 6 to 10 years		
+Solution Consultant		A: 2 or fewer years		Consulting
+Solution Manager	Analyst	A: 2 or fewer years		Consulting
+Solutions Architect	Developer	B: 3 to 5 years	Private sector	
+Solutions Architect		C: 6 to 10 years		Information technology
+Specialist	Analyst	B: 3 to 5 years	Public sector (government)	
+Staff Data Scientist	Scientist	C: 6 to 10 years	Private sector	
+Staff Data Scientist	Scientist	C: 6 to 10 years		Healthcare/medical
+Staff Product Designer	Designer	C: 6 to 10 years	Private sector	
+Staff Software Engineer	Developer	C: 6 to 10 years		
+Staff Software Engineer		B: 3 to 5 years		
+Statistician	Analyst	B: 3 to 5 years	Private sector	
+Statistician	Analyst	D: 11 or more years	Public sector (government)	Healthcare/medical
+Strategic Data Analyst	Analyst	C: 6 to 10 years		
+Strategic Information Advisor	Analyst	B: 3 to 5 years	Non-profit	
+Strategy & Analytics Associate	Student	A: 2 or fewer years		
+Student	Student	A: 2 or fewer years		
+Student	Student	A: 2 or fewer years		
+Student	Student	A: 2 or fewer years		
+Student	Student	B: 3 to 5 years		
+Student	Student	B: 3 to 5 years		
+Student	Developer	B: 3 to 5 years		
+Student of Information and Data Science, Artist	Student	B: 3 to 5 years		
+Supply Chain Analysis	Analyst	B: 3 to 5 years	Private sector	
+Supply Chain Engineer	Student	A: 2 or fewer years		
+Supply Chain Logistics Consultant	Analyst	C: 6 to 10 years		Information technology
+Survey Manager	Developer	D: 11 or more years	2 or more	
+Survey Research Coordinator	Analyst	C: 6 to 10 years	Public sector (government)	
+Surveyor		A: 2 or fewer years		
+Systems Engineer	Engineer	D: 11 or more years	Academia	
+Systems Engineer	Analyst	B: 3 to 5 years	2 or more	
+Tableau Architect	Developer	D: 11 or more years		
+Tableau Consultant	Analyst	A: 2 or fewer years	Private sector	
+Tableau Developer	Developer	A: 2 or fewer years		Consulting
+Tableau Developer	Developer	B: 3 to 5 years		Consulting
+Tableau Developer	Developer	C: 6 to 10 years	Private sector	
+Tableau Developer	Developer	C: 6 to 10 years	2 or more	
+Tableau Development Lead	Analyst	C: 6 to 10 years		Healthcare/medical
+Tableau Enablement Consultant		C: 6 to 10 years		Information technology
+Talent Analytics Consultant	Analyst	C: 6 to 10 years	Private sector	
+Teacher	Designer	D: 11 or more years		
+Teacher	Academic	C: 6 to 10 years		
+Team Lead	Academic	C: 6 to 10 years		
+Team Lead, Analytics	Analyst	C: 6 to 10 years	Public sector (government)	
+Team Leader	Leadership	B: 3 to 5 years	Non-profit	
+Team Leader		A: 2 or fewer years		
+Tech	Analyst	D: 11 or more years	Non-profit	
+Technical Analyst - Data	Analyst	B: 3 to 5 years		
+Technical Consultant	Developer	B: 3 to 5 years		Finance
+Technical Solution Engineer	Engineer	C: 6 to 10 years		
+Technical Specialist	Analyst	B: 3 to 5 years		Consulting
+Technology Strategist		C: 6 to 10 years	Private sector	
+Trainer	Academic	C: 6 to 10 years		
+Tutor	Student	A: 2 or fewer years		
+UI Designer	Designer	B: 3 to 5 years	Non-profit	2 or more
+Unemployed		A: 2 or fewer years		
+User Researcher		C: 6 to 10 years		Information technology
+UX Design Professional	Designer	D: 11 or more years		
+UX Designer	Designer	A: 2 or fewer years		
+UX Designer	Designer	B: 3 to 5 years	Private sector	
+UX Designer	Designer	B: 3 to 5 years		2 or more
+UX Designer	Designer	C: 6 to 10 years	Private sector	Information technology
+UX Designer	Designer	C: 6 to 10 years		Information technology
+UX Designer		A: 2 or fewer years		
+UX Designer		C: 6 to 10 years		
+UX Designer and Researcher	Designer	A: 2 or fewer years	Public sector (government)	
+UX Engineer	Engineer	C: 6 to 10 years		2 or more
+Visual Communications Analyst	Designer	D: 11 or more years	Public sector (government)	
+Visual Communications Designer	Designer	D: 11 or more years		
+Visual Communications Specialist	Designer	B: 3 to 5 years	2 or more	Healthcare/medical
+Visual Data Journalist		C: 6 to 10 years		
+Visual Information Designer	Designer	C: 6 to 10 years		
+Visual Information Designer	Designer	D: 11 or more years		
+Visual Journalist	Journalist	A: 2 or fewer years		Journalism
+Visual Journalist	Journalist	C: 6 to 10 years		Journalism
+Visualization Developer	Developer	B: 3 to 5 years	Non-profit	Healthcare/medical
+Visualization Developer	Analyst	D: 11 or more years	Academia	
+Visualization Lead		D: 11 or more years		Healthcare/medical
+Visualization Scientist	Scientist	D: 11 or more years	Public sector (government)	
+Visualization Specialist	Teacher	C: 6 to 10 years	Academia	
+Visualization Specialist	Academic	C: 6 to 10 years		
+VP	Leadership	D: 11 or more years	Private sector	Consulting
+VP	Analyst	D: 11 or more years	Private sector	Finance
+VP		D: 11 or more years		
+Wealth Advisor		C: 6 to 10 years		
+Web Producer	Developer	B: 3 to 5 years	Non-profit	
+Workforce Intelligence Manager	Developer	D: 11 or more years	Public sector (government)	Healthcare/medical
+	Teacher	B: 3 to 5 years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	A: 2 or fewer years		
+	Student	B: 3 to 5 years		
+	Student	B: 3 to 5 years		
+	Student			
+	Student			
+	Scientist	A: 2 or fewer years		
+	Scientist	C: 6 to 10 years		
+	Leadership	B: 3 to 5 years	Non-profit	
+	Leadership	B: 3 to 5 years		2 or more
+	Leadership	B: 3 to 5 years		
+	Leadership	C: 6 to 10 years	Non-profit	Journalism
+	Leadership	C: 6 to 10 years	Non-profit	
+	Leadership	D: 11 or more years	Public sector (government)	
+	Leadership	D: 11 or more years	2 or more	
+	Leadership	D: 11 or more years		Information technology
+	Leadership	D: 11 or more years		Consulting
+	Leadership	D: 11 or more years		
+	Journalist	D: 11 or more years		
+	Engineer	C: 6 to 10 years		
+	Developer	A: 2 or fewer years		Consulting
+	Developer	A: 2 or fewer years		
+	Developer	B: 3 to 5 years		
+	Designer	A: 2 or fewer years		
+	Designer	B: 3 to 5 years		Finance
+	Designer	B: 3 to 5 years		Consulting
+	Designer	B: 3 to 5 years		
+	Designer	B: 3 to 5 years		
+	Designer	B: 3 to 5 years		
+	Designer	B: 3 to 5 years		
+	Designer	C: 6 to 10 years		
+	Designer	C: 6 to 10 years		
+	Analyst	A: 2 or fewer years		
+	Analyst	B: 3 to 5 years	Public sector (government)	
+	Analyst	B: 3 to 5 years	Public sector (government)	
+	Analyst	B: 3 to 5 years		
+	Analyst	C: 6 to 10 years	Non-profit	
+	Analyst	C: 6 to 10 years		Consulting
+	Analyst	C: 6 to 10 years		
+	Analyst	C: 6 to 10 years		
+	Analyst	D: 11 or more years		
+	Analyst			Information technology
+	Academic	A: 2 or fewer years		
+	Academic	B: 3 to 5 years		
+	Academic	B: 3 to 5 years		
+	Academic	B: 3 to 5 years		
+	Academic	C: 6 to 10 years		
+	Academic	C: 6 to 10 years		
+	Academic	C: 6 to 10 years		
+	Academic	D: 11 or more years		

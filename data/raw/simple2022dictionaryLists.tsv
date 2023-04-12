@@ -1,0 +1,406 @@
+publicTable_2022	surveyQnum	Variable	dataType	dataRange
+data2022jobtitles_etc	Q02	JobTitle_cleaned__	STRING	
+data2022jobtitles_etc	Q18, Q13, Q01	RoleMultichoice_composite	STRING	{'Analyst'; 'Cartographer'; 'Designer'; 'Developer'; 'Engineer'; 'Journalist'; 'Leadership'; 'Scientist'; 'Teacher'; 'Academic'; 'Student'}
+data2022jobtitles_etc	Q03	YearsDataVizExperience_4buckets	STRING	{'A: 2 or fewer years'; 'B: 3 to 5 years'; 'C: 6 to 10 years'; 'D: 11 or more years'}
+data2022jobtitles_etc	Q19	OrgSector_collapsed	STRING	{'Public sector (government)'; 'Private sector'; 'Non-profit'; '2 or more'; 'Academia'}
+data2022jobtitles_etc	Q19	OrgIndustry_collapsed	STRING	{'Finance'; 'Healthcare/medical'; 'Information technology'; 'Journalism'; 'Marketing'; '2 or more'; 'Consulting'}
+data2022main	meta	refID	INTEGER	
+data2022main	meta	totalQanswered	INTEGER	
+data2022main	meta	totalQpossible	INTEGER	
+data2022main	Q01	DataVizRoles_	INTEGER	0; 1; 2; 3; 4; 5; 6
+data2022main	Q01	DataVizRoles_collapsed	STRING	{'Employee'; 'EmployeeAND'; 'EmployeeANDFreelance'; 'EmployeeANDFreelanceAND'; 'Freelance'; 'FreelanceAND'; 'Academic'; 'Hobbyist'; 'OtherCombo'; 'Passive income'; 'Skipped question'; 'Student'}
+data2022main	Q01	DataVizRoles_Freelance	STRING	{'Freelance/Consultant/Independent contractor'; '[^not chosen]'}
+data2022main	Q01	DataVizRoles_Employee	STRING	{'Position in an organization'; '[^not chosen]'}
+data2022main	Q01	DataVizRoles_Hobbyist	STRING	{'Non-compensated data visualization hobbyist'; '[^not chosen]'}
+data2022main	Q01	DataVizRoles_Student	STRING	{'Student in a degree program at a college or university'; '[^not chosen]'}
+data2022main	Q01	DataVizRoles_Academic	STRING	{'Academic/Teacher'; '[^not chosen]'}
+data2022main	Q01	DataVizRoles_PassiveIncome	STRING	{'Passive income from data visualization related products'; '[^not chosen]'}
+data2022main	Q01	DataVizRoles_PreferNot	STRING	{'Prefer not to answer'; '[^not chosen]'}
+data2022main	Q03	YearsDataVizExperience	STRING	{'Less than 1 year'; '1'; '2'; '3'; '4'; '5'; '6'; '7'; '8'; '9'; '10'; '11'; '12'; '13'; '14'; '15'; '16'; '17'; '18'; '19'; '20'; '21'; '22'; '23'; '24'; '25'; '26'; '27'; '28'; '29'; '30'; 'More than 30'; '[^not answered]'}
+data2022main	Q04	YearsWorkExperience	STRING	{'Less than 1 year'; '1'; '2'; '3'; '4'; '5'; '6'; '7'; '8'; '9'; '10'; '11'; '12'; '13'; '14'; '15'; '16'; '17'; '18'; '19'; '20'; '21'; '22'; '23'; '24'; '25'; '26'; '27'; '28'; '29'; '30'; 'More than 30'; '[^not answered]'}
+data2022main	Q05	PayCurrency_cleaned	STRING	{'USD - United States Dollar'; 'EUR - Euro Member Countries'; 'ARS - Argentina Peso'; 'AUD - Australia Dollar'; 'BAM - Bosnia and Herzegovina Convertible Mark'; 'BDT - Bangladesh Taka'; 'BRL - Brazil Real'; 'BYN - Belarus Ruble'; 'CAD - Canada Dollar'; 'CHF - Switzerland Franc'; 'CLP - Chile Peso'; 'CNY - China Yuan Renminbi'; 'COP - Colombia Peso'; 'CZK - Czech Republic Koruna'; 'DKK - Denmark Krone'; 'ETB - Ethiopia Birr'; 'GBP - United Kingdom Pound'; 'GHS - Ghana Cedi'; 'HKD - Hong Kong Dollar'; 'HRK - Croatia Kuna'; 'HUF - Hungary Forint'; 'IDR - Indonesia Rupiah'; 'ILS - Israel Shekel'; 'INR - India Rupee'; 'JPY - Japan Yen'; 'KES - Kenya Shilling'; 'KRW - Korea (South) Won'; 'KZT - Kazakhstan Tenge'; 'LKR - Sri Lanka Rupee'; 'MNT - Mongolia Tughrik'; 'MUR - Mauritius Rupee'; 'MXN - Mexico Peso'; 'MYR - Malaysia Ringgit'; 'NGN - Nigeria Naira'; 'NOK - Norway Krone'; 'NPR - Nepal Rupee'; 'NZD - New Zealand Dollar'; 'PEN - Peru Sol'; 'PHP - Philippines Peso'; 'PKR - Pakistan Rupee'; 'PLN - Poland Zloty'; 'RON - Romania Leu'; 'RUB - Russia Ruble'; 'SAR - Saudi Arabia Riyal'; 'SEK - Sweden Krona'; 'SGD - Singapore Dollar'; 'THB - Thailand Baht'; 'TZS - Tanzania Shilling'; 'UGX - Uganda Shilling'; 'ZAR - South Africa Rand'; '[not paid for DV]'; '[other info]'; '[\unfinished]'; '[^not answered]'}
+data2022main	Q06	PayAnnual	STRING	{'I am not compensated on a yearly basis'; 'Less than $10,000'; '$10,000 - $19,999'; '$20,000 - $39,999'; '$40,000 - $59,999'; '$60,000 - $79,999'; '$80,000 - $99,999'; '$100,000 - $119,999'; '$120,000 - $139,999'; '$140,000 - $159,999'; '$160,000 - $179,999'; '$180,000 - $199,999'; '$200,000 - $219,999'; '$220,000 - $239,999'; '$240,000 or more'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q07	PayHourly	STRING	{'I am not compensated on an hourly or project basis'; 'Less than $15'; '$15 - $29'; '$30 - $44'; '$45 - $59'; '$60 - $74'; '$75 - $99'; '$100 - $124'; '$125 - $149'; '$150 - $174'; '$175 - $199'; '$200 - $224'; '$225 - $249'; '$250 - $274'; '$275 - $299'; '$300 or more'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q08	Loc1Country	STRING	{'Afghanistan', ' Albania', ' Algeria', ' Andorra', ' Angola', ' Antigua and Barbuda', ' Argentina', ' Armenia', ' Australia', ' Austria', ' Azerbaijan', ' Bahamas', ' Bahrain', ' Bangladesh', ' Barbados', ' Belarus', ' Belgium', ' Belize', ' Benin', ' Bhutan', ' Bolivia', ' Bosnia and Herzegovina', ' Botswana', ' Brazil', ' Brunei', ' Bulgaria', ' Burkina Faso', ' Burundi', ' Cabo Verde', ' Cambodia', ' Cameroon', ' Canada', ' Central African Republic', ' Chad', ' Chile', ' China', ' Colombia', ' Comoros', ' Congo', ' Costa Rica', ' Croatia', ' Cuba', ' Cyprus', ' Czech Republic (Czechia)', ' Côte d’Ivoire', ' Denmark', ' Djibouti', ' Dominica', ' Dominican Republic', ' DR Congo', ' Ecuador', ' Egypt', ' El Salvador', ' Equatorial Guinea', ' Eritrea', ' Estonia', ' Eswatini', ' Ethiopia', ' Fiji', ' Finland', ' France', ' Gabon', ' Gambia', ' Georgia', ' Germany', ' Ghana', ' Greece', ' Grenada', ' Guatemala', ' Guinea', ' Guinea-Bissau', ' Guyana', ' Haiti', ' Holy See', ' Honduras', ' Hungary', ' Iceland', ' India', ' Indonesia', ' Iran', ' Iraq', ' Ireland', ' Israel', ' Italy', ' Jamaica', ' Japan', ' Jordan', ' Kazakhstan', ' Kenya', ' Kiribati', ' Kuwait', ' Kyrgyzstan', ' Laos', ' Latvia', ' Lebanon', ' Lesotho', ' Liberia', ' Libya', ' Liechtenstein', ' Lithuania', ' Luxembourg', ' Madagascar', ' Malawi', ' Malaysia', ' Maldives', ' Mali', ' Malta', ' Marshall Islands', ' Mauritania', ' Mauritius', ' Mexico', ' Micronesia', ' Moldova', ' Monaco', ' Mongolia', ' Montenegro', ' Morocco', ' Mozambique', ' Myanmar', ' Namibia', ' Nauru', ' Nepal', ' Netherlands', ' New Zealand', ' Nicaragua', ' Niger', ' Nigeria', ' North Korea', ' North Macedonia', ' Norway', ' Oman', ' Pakistan', ' Palau', ' Panama', ' Papua New Guinea', ' Paraguay', ' Peru', ' Philippines', ' Poland', ' Portugal', ' Qatar', ' Romania', ' Russia', ' Rwanda', ' Saint Kitts & Nevis', ' Saint Lucia', ' Samoa', ' San Marino', ' Sao Tome & Principe', ' Saudi Arabia', ' Senegal', ' Serbia', ' Seychelles', ' Sierra Leone', ' Singapore', ' Slovakia', ' Slovenia', ' Solomon Islands', ' Somalia', ' South Africa', ' South Korea', ' South Sudan', ' Spain', ' Sri Lanka', ' St. Vincent & Grenadines', ' State of Palestine', ' Sudan', ' Suriname', ' Sweden', ' Switzerland', ' Syria', ' Taiwan', ' Tajikistan', ' Tanzania', ' Thailand', ' Timor-Leste', ' Togo', ' Tonga', ' Trinidad and Tobago', ' Tunisia', ' Turkey', ' Turkmenistan', ' Tuvalu', ' Uganda', ' Ukraine', ' United Arab Emirates', ' United Kingdom', ' United States', ' Uruguay', ' Uzbekistan', ' Vanuatu', ' Venezuela', ' Vietnam', ' Yemen', ' Zambia', ' Zimbabwe'}
+data2022main	Q11	WorkSituRecent	STRING	{'Remote (fully or mostly)'; 'Hybrid'; 'On site (fully or mostly)'; 'Other (please specify)'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q11	WorkSituRecent_Other__	STRING	
+data2022main	Q12	WorkSituPreferred	STRING	{'Remote (fully or mostly)'; 'Hybrid'; 'On site (fully or mostly)'; 'Other (please specify)'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q12	WorkSituPreferred_Other__	STRING	
+data2022main	Q13	RoleAsFreelance	STRING	{'Analyst'; 'Cartographer'; 'Designer'; 'Developer'; 'Engineer'; 'Journalist'; 'Leadership (Manager, Director, VP, etc.)'; 'Scientist'; 'Teacher'; 'None of these describes my role'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q14	DataVizCentralityFreelance	STRING	{'Primary'; 'Secondary'; 'Tertiary'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q15	ToolsChoiceFreelance	STRING	{'A - Own choice'; 'B - No problems'; 'C - Some problems'; 'D - Major problems'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_PoorCustomization	STRING	{'Inadequate customizability'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_MisfitForTask	STRING	{'Not best fit for task'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_CostsAndOrLicenseIssues	STRING	{'Costs and/or license issues'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_PerformanceIssues	STRING	{'Performance issues (e.g. reliability, speed, lack of updates)'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_HardToLearn	STRING	{'Hard to learn'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_CannotIntegrateWithOtherTools	STRING	{'Cannot easily integrate with other tools'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_SharingLimits	STRING	{'Sharing limitations'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_SecurityOrGovernance	STRING	{'Security or governance difficulties'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_PoorUXUIAccessibility	STRING	{'Tool has poor UX/UI accessibility'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_PoorSupportOrPoorDocumentation	STRING	{'Insufficient support or poor documentation'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q16	ToolsUnchoiceProblemsFreelance_Other__	STRING	
+data2022main	Q17	AudienceFreelance_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16
+data2022main	Q17	AudienceFreelance_Public	STRING	{'General Public'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Analysts	STRING	{'Analysts'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Engineers	STRING	{'Engineers'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Scientists	STRING	{'Scientists'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Medical	STRING	{'Medical Professionals'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_ProdProjManagers	STRING	{'Product or Project Managers'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_PolicyMakers	STRING	{'Policy Makers'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Execs	STRING	{'Executives'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Designers	STRING	{'Designers'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Researchers	STRING	{'Researchers'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Students	STRING	{'Students'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Educators	STRING	{'Educators'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_AdminPersonnel	STRING	{'Administrative Personnel'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_DataVizEnthusiasts	STRING	{'Other Data Visualization Enthusiasts'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Self	STRING	{'Myself'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q17	AudienceFreelance_Other__	STRING	
+data2022main	Q18	RoleAsEmployee	STRING	{'Analyst'; 'Cartographer'; 'Designer'; 'Developer'; 'Engineer'; 'Journalist'; 'Leadership (Manager, Director, VP, etc.)'; 'Scientist'; 'Teacher'; 'None of these describes my role'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11
+data2022main	Q19	OrgSector_Public	STRING	{'Public sector (government)'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_Private	STRING	{'Private sector'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_Nonprofit	STRING	{'Non-profit'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_Academia	STRING	{'Academia'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_Finance	STRING	{'Finance'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_HealthMed	STRING	{'Healthcare/medical'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_IT	STRING	{'Information technology'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_Journalism	STRING	{'Journalism'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_Marketing	STRING	{'Marketing'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_ConsultantMulti	STRING	{'Consultant (therefore multiple areas)'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q19	OrgSector_Other__	STRING	
+data2022main	Q20	OrgSize	STRING	{'Fewer than 20 employees'; '20-99 employees'; '100-499 employees'; '500-999 employees'; '1,000-4,999 employees'; '5,000+ employees'; 'Don’t know'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q21	DataVizCentralityEmployee	STRING	{'Primary'; 'Secondary'; 'Tertiary'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q22	ToolsChoiceEmployee	STRING	{'A - Own choice'; 'B - No problems'; 'C - Some problems'; 'D - Major problems'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_PoorCustomization	STRING	{'Inadequate customizability'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_MisfitForTask	STRING	{'Not best fit for task'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_CostsAndOrLicenseIssues	STRING	{'Costs and/or license issues'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_PerformanceIssues	STRING	{'Performance issues (e.g. reliability, speed, lack of updates)'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_HardToLearn	STRING	{'Hard to learn'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_CannotIntegrateWithOtherTools	STRING	{'Cannot easily integrate with other tools'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_SharingLimits	STRING	{'Sharing limitations'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_SecurityOrGovernance	STRING	{'Security or governance difficulties'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_PoorUXUIAccessibility	STRING	{'Tool has poor UX/UI accessibility'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_PoorSupportOrPoorDocumentation	STRING	{'Insufficient support or poor documentation'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q23	ToolsUnchoiceProblemsEmployee_Other__	STRING	
+data2022main	Q24	DataVizOrgLeadership	INTEGER	{'1. Strongly Disagree'; '2. Disagree'; '3. Neither Agree nor Disagree'; '4. Agree'; '5. Strongly Agree'; 'I don’t know'; '[\unasked]'; '[\unfinished]'; '[^not answered]'}
+data2022main	Q25	AudienceEmployee_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16
+data2022main	Q25	AudienceEmployee_Public	STRING	{'General Public'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Analysts	STRING	{'Analysts'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Engineers	STRING	{'Engineers'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Scientists	STRING	{'Scientists'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Medical	STRING	{'Medical Professionals'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_ProdProjManagers	STRING	{'Product or Project Managers'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_PolicyMakers	STRING	{'Policy Makers'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Execs	STRING	{'Executives'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Designers	STRING	{'Designers'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Researchers	STRING	{'Researchers'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Students	STRING	{'Students'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Educators	STRING	{'Educators'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_AdminPersonnel	STRING	{'Administrative Personnel'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_DataVizEnthusiasts	STRING	{'Other Data Visualization Enthusiasts'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Self	STRING	{'Myself'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q25	AudienceEmployee_Other__	STRING	
+data2022main	Q26	AcadArea	STRING	{'Arts and Humanities'; 'Business'; 'Health and Medicine'; 'Multi-/Interdisciplinary Studies'; 'Public and Social Services'; 'Science, Math, and Technology'; 'Social Sciences'; 'Trades and Personal Services'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q27	AcadDataVizUse_	INTEGER	0; 1; 2; 3; 4; 5
+data2022main	Q27	AcadDataVizUse_ShareFindings	STRING	{'Communication of research findings'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q27	AcadDataVizUse_TeachDataViz	STRING	{'Teaching data visualization as a course topic'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q27	AcadDataVizUse_ResearchTopic	STRING	{'As a topic of academic research'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q27	AcadDataVizUse_OtherTeaching	STRING	{'Other instructional purposes'; '[^not chosen]'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q27	AcadDataVizUse_Other__	STRING	
+data2022main	Q28	StudentTime	STRING	{'Full time'; 'Part time'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q29	StudentDegreeLevel	STRING	{'Undergraduate/Bachelor’s'; 'Graduate/Master’s'; 'PhD/Doctorate'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q30	StudentDataVizTaught	STRING	{'Yes, in a required course'; 'Yes, in an elective course'; 'No'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q31	StudentDegreeArea__	STRING	
+data2022main	Q32	HobbyTime	STRING	{'5 or fewer'; '6–10'; '11–20'; '21–30'; '31–40'; 'More than 40'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q33.1	HobbyEnjoyment	STRING	{'Never'; 'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q33.2	HobbyPortfolio	STRING	{'Never'; 'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q33.3	HobbyVolunteer	STRING	{'Never'; 'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q33.4	HobbyShareMessages	STRING	{'Never'; 'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q33.5	HobbyBuildSkills	STRING	{'Never'; 'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q33.6	HobbyOther__	STRING	
+data2022main	Q34	ChartsUsed_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23
+data2022main	Q34	ChartsUsed_Line	STRING	{'Line Chart'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Bar	STRING	{'Bar Chart'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_PieOrDonut	STRING	{'Pie Chart/Donut Chart'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Scatterplot	STRING	{'Scatterplot'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Histogram	STRING	{'Histogram'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Boxplot	STRING	{'Boxplot/Box and Whisker'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_DotPlot	STRING	{'Dot Plot'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Hexbin	STRING	{'Hexbin'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Heatmap	STRING	{'Heatmap'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Infographic	STRING	{'Infographic'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Pictorial	STRING	{'Pictorial Visualization'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Treemap	STRING	{'Treemap'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Dendrogram	STRING	{'Dendrogram'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Network	STRING	{'Network Diagram'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_ChoroplethMap	STRING	{'Choropleth Map'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_OtherGeospatialMap	STRING	{'Geospatial Map (other than Choropleth)'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Waffle	STRING	{'Waffle Chart'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Flow	STRING	{'Flow Chart (Sankey, DAGRE, Alluvial)'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_3D	STRING	{'3D Chart'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_VRorAR	STRING	{'VR/AR Chart'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_BeeSwarm	STRING	{'Bee Swarm Chart'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_ForceDirected	STRING	{'Force-Directed Graph'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q34	ChartsUsed_Other__	STRING	
+data2022main	Q35	DataVizSharingChannels_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18
+data2022main	Q35	DataVizSharingChannels_EmbeddedInTool	STRING	{'Embedded in a tool'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_Dashboard	STRING	{'Dashboard'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_Scrollytelling	STRING	{'Scrollytelling'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_StaticWebPage	STRING	{'Static web page'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_InteractiveNotebook	STRING	{'Interactive notebook'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_DocumentOrReport	STRING	{'Document or report'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_Presentations	STRING	{'Presentations'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_Email	STRING	{'Email'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_NewspaperorMagazine	STRING	{'Newspaper or magazine'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_PeerReviewedJournal	STRING	{'Peer reviewed journal publication'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_PrintedOnPaper	STRING	{'Physical handout or Printed on paper'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_OtherPhysicalMedium	STRING	{'Physical medium other than printed on paper'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_VRorAR	STRING	{'Augmented or Virtual reality'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_Installation	STRING	{'Installation'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_App	STRING	{'App'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_Video	STRING	{'Video'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_SocialMedia	STRING	{'Social media'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q35	DataVizSharingChannels_Other__	STRING	
+data2022main	Q36	ToolsForDataViz_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35; 36
+data2022main	Q36	ToolsForDataViz_ArcGIS	STRING	{'ArcGIS'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Canvas	STRING	{'Canvas'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_D3	STRING	{'D3.js'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Datawrapper	STRING	{'Datawrapper'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Excel	STRING	{'Excel'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Figma	STRING	{'Figma'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Flourish	STRING	{'Flourish'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_ggplot2	STRING	{'ggplot2'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Gephi	STRING	{'Gephi'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_GoogleDataStudio	STRING	{'Google Data Studio'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_GoogleSheets	STRING	{'Google Sheets'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Highcharts	STRING	{'Highcharts'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Illustrator	STRING	{'Illustrator'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Leaflet	STRING	{'Leaflet'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Looker	STRING	{'Looker'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Mapbox	STRING	{'Mapbox'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Observable	STRING	{'Observable'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_P5orProcessing	STRING	{'P5/Processing'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_PenPaper	STRING	{'Pen & paper'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_PhysicalMaterials	STRING	{'Physical materials (other than pen and paper)'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Plotly	STRING	{'Plotly'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_PowerBI	STRING	{'Power BI'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_PowerPoint	STRING	{'PowerPoint'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Python	STRING	{'Python'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_QGIS	STRING	{'QGIS'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Qlik	STRING	{'Qlik'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_R	STRING	{'R'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_RAWGraphs	STRING	{'RAWGraphs'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_React	STRING	{'React'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Svelte	STRING	{'Svelte'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Tableau	STRING	{'Tableau'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Vega	STRING	{'Vega'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Vue	STRING	{'Vue'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_WebComponents	STRING	{'Web Components'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_WebGL	STRING	{'WebGL'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q36	ToolsForDataViz_Other__	STRING	
+data2022main	Q37	ToolsFreq_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35; 36
+data2022main	Q37	ToolsFreq_ArcGIS	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Canvas	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_D3	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Datawrapper	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Excel	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Figma	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Flourish	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_ggplot2	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Gephi	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_GoogleDataStudio	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_GoogleSheets	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Highcharts	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Illustrator	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Leaflet	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Looker	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Mapbox	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Observable	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_P5orProcessing	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_PenPaper	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_PhysicalMaterials	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Plotly	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_PowerBI	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_PowerPoint	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Python	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_QGIS	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Qlik	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_R	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_RAWGraphs	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_React	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Svelte	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Tableau	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Vega	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Vue	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_WebComponents	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_WebGL	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q37	ToolsFreq_Other__	STRING	{'Rarely'; 'Sometimes'; 'Often'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20; 21; 22; 23; 24; 25; 26; 27; 28; 29; 30; 31; 32; 33; 34; 35; 36
+data2022main	Q38	ToolsLiking_ArcGIS	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Canvas	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_D3	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Datawrapper	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Excel	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Figma	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Flourish	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_ggplot2	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Gephi	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_GoogleDataStudio	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_GoogleSheets	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Highcharts	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Illustrator	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Leaflet	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Looker	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Mapbox	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Observable	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_P5orProcessing	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_PenPaper	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_PhysicalMaterials	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Plotly	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_PowerBI	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_PowerPoint	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Python	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_QGIS	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Qlik	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_R	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_RAWGraphs	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_React	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Svelte	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Tableau	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Vega	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Vue	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_WebComponents	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_WebGL	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q38	ToolsLiking_Other__	STRING	{'Not at all'; 'Somewhat'; 'Very much'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14
+data2022main	Q39	ChallengesForDataViz_LackTime	STRING	{'Lack of time'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_LackDesignExpertise	STRING	{'Lack of design expertise'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_LackTechSkill	STRING	{'Lack of technical skill'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_LearningNewToolsEtc	STRING	{'Learning new tools/approaches'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_AccessingData	STRING	{'Accessing data'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_InfoOverload	STRING	{'Information overload'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_LackCollaboration	STRING	{'Lack of collaboration'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_LackMentorship	STRING	{'Lack of mentorship'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_LowDataLiteracy	STRING	{'Low data literacy'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_DataVizNotRespected	STRING	{'Not enough respect for dataviz'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_ToolsTechLimits	STRING	{'Technical limitations of the tools'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_NonVizActivity	STRING	{'Too much effort spent on non-viz activity'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_DataVolume	STRING	{'Data volume'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q39	ChallengesForDataViz_Other__	STRING	
+data2022main	Q40	ChallengesImpact_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14
+data2022main	Q40	ChallengesImpact_LackTime	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_LackDesignExpertise	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_LackTechSkill	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_LearningNewToolsEtc	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_AccessingData	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_InfoOverload	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_LackCollaboration	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_LackMentorship	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_LowDataLiteracy	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_DataVizNotRespected	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_ToolsTechLimits	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_NonVizActivity	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_DataVolume	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q40	ChallengesImpact_Other__	STRING	{'Minor Impact'; 'Moderate Impact'; 'Significant Impact'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q41	EntryBarriers__	STRING	
+data2022main	Q42	DataVizNotUnderstood__	STRING	
+data2022main	Q43	EmployChanged	STRING	{'Yes'; 'No'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q44	EmployNewWanted	STRING	{'Yes'; 'No'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q45	TopDataVizSkillsToImprove	STRING	{'Improving my data skills'; 'Improving my design skills'; 'Improving my skills with an existing technical tool or library'; 'Learning a new technical tool or library'; 'I don’t feel I need to improve my data visualization skills currently'; 'Other (please specify)'; '[^not answered]'; '[\unfinished]'}
+data2022main	rQ45	TopDataVizSkillsToImprove_Other__	STRING	
+data2022main	Q46	TopMethodsDataVizEduc_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9
+data2022main	Q46	TopMethodsDataVizEduc_Books	STRING	{'Books'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q46	TopMethodsDataVizEduc_Workshops	STRING	{'Workshops'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q46	TopMethodsDataVizEduc_Examples	STRING	{'Examples'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q46	TopMethodsDataVizEduc_VideoTutorials	STRING	{'Video tutorials'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q46	TopMethodsDataVizEduc_CollaborateWithMoreSkilled	STRING	{'Collaborating with more skilled practitioners'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q46	TopMethodsDataVizEduc_WorkThroughProject	STRING	{'Working through a project'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q46	TopMethodsDataVizEduc_MentororTeach	STRING	{'Mentoring/teaching others'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q46	TopMethodsDataVizEduc_Podcasts	STRING	{'Podcasts'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q46	TopMethodsDataVizEduc_Other__	STRING	
+data2022main	Q47.1	TrainingSitus_InPerson	STRING	{'Not likely'; 'Somewhat likely'; 'Very likely'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q47.2	TrainingSitus_SameTimeVirtual	STRING	{'Not likely'; 'Somewhat likely'; 'Very likely'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q47.3	TrainingSitus_AsyncVirtual	STRING	{'Not likely'; 'Somewhat likely'; 'Very likely'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q48	PDFundAmount	STRING	{'$0'; '$1–100'; '$101–250'; '$251–500'; '$501–1,000'; '$1,001–2,000'; '$2,001–5,000'; '$5,001+'; 'Don’t know'; 'Don’t have a set amount'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q49	PDFundUse_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9
+data2022main	Q49	PDFundUse_ConferenceRegistration	STRING	{'Conference registration'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q49	PDFundUse_ConferenceTravel	STRING	{'Conference travel and lodging'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q49	PDFundUse_SoftwareLicenses	STRING	{'Data visualization software licenses'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q49	PDFundUse_Workshops	STRING	{'Workshops or training seminars'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q49	PDFundUse_Memberships	STRING	{'Professional association memberships'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q49	PDFundUse_Books	STRING	{'Professional books'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q49	PDFundUse_Tuition	STRING	{'Tuition for graduate coursework'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q49	PDFundUse_DataLicensing	STRING	{'Data licensing'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q49	PDFundUse_Other__	STRING	
+data2022main	Q50	TopIssuesDataViz_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11
+data2022main	Q50	TopIssuesDataViz_LackAwarenessOfDataVizImpact	STRING	{'Lack of awareness of the impact of dataviz'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q50	TopIssuesDataViz_NoSeatAtTableForDataViz	STRING	{'Data visualization not having a “seat at the table”'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q50	TopIssuesDataViz_DiversityInTech	STRING	{'Diversity in tech'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q50	TopIssuesDataViz_IncomeInequality	STRING	{'Income inequality'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q50	TopIssuesDataViz_LackDataVizLiteracy	STRING	{'Lack of data visualization literacy'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q50	TopIssuesDataViz_DesignForDisabilities	STRING	{'Designing for disabilities'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q50	TopIssuesDataViz_LackEducationAccess	STRING	{'Lack of access to education'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q50	TopIssuesDataViz_AlgorithmicBias	STRING	{'Algorithmic bias'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q50	TopIssuesDataViz_LackEthicalStandards	STRING	{'Lack of ethical standards for visualizing data'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q50	TopIssuesDataViz_LackSoftwareLiteracy	STRING	{'Lack of software literacy'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q50	TopIssuesDataViz_Other__	STRING	
+data2022main	Q51	IssuesUrgency_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11
+data2022main	Q51	IssuesUrgency_LackAwarenessOfDataVizImpact	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q51	IssuesUrgency_NoSeatAtTableForDataViz	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q51	IssuesUrgency_DiversityInTech	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q51	IssuesUrgency_IncomeInequality	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q51	IssuesUrgency_LackDataVizLiteracy	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q51	IssuesUrgency_DesignForDisabilities	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q51	IssuesUrgency_LackEducationAccess	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q51	IssuesUrgency_AlgorithmicBias	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q51	IssuesUrgency_LackEthicalStandards	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q51	IssuesUrgency_LackSoftwareLiteracy	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q51	IssuesUrgency_Other__	STRING	{'Somewhat Urgent'; 'Moderately Urgent'; 'Extremely Urgent'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q52	TimeWorked	STRING	{'Fewer than 20 hours'; '20–29 hours'; '30–39 hours'; '40–49 hours'; '50–59 hours'; '60–69 hours'; '70 or more hours'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q53.1	TimeDataPrep	STRING	{'None'; '5 hours or less'; '6–10 hours'; '11–20 hours'; '21–30 hours'; 'More than 30 hours'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q53.2	TimeDataAnalysis	STRING	{'None'; '5 hours or less'; '6–10 hours'; '11–20 hours'; '21–30 hours'; 'More than 30 hours'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q53.3	TimeIdeating	STRING	{'None'; '5 hours or less'; '6–10 hours'; '11–20 hours'; '21–30 hours'; 'More than 30 hours'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q53.4	TimeProducingViz	STRING	{'None'; '5 hours or less'; '6–10 hours'; '11–20 hours'; '21–30 hours'; 'More than 30 hours'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q53.5	TimeManagingDataViz	STRING	{'None'; '5 hours or less'; '6–10 hours'; '11–20 hours'; '21–30 hours'; 'More than 30 hours'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q53.6	TimeOtherVizTasks	STRING	{'None'; '5 hours or less'; '6–10 hours'; '11–20 hours'; '21–30 hours'; 'More than 30 hours'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q54	OtherVizTasks__	STRING	
+data2022main	Q55	DataVizGoTo_Persons__	STRING	
+data2022main	Q56	DataVizGoTo_Resources__	STRING	
+data2022main	Q58	EducLevel	STRING	{'Some primary or secondary school'; 'High school diploma'; 'Some college'; 'Technical school'; 'Associate’s degree'; 'Bachelor’s degree'; 'Master’s (or similar graduate degree)'; 'Doctoral degree (e.g., PhD, EdD, PsyD)'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10
+data2022main	Q62	EducUndergradArea_collapsed	STRING	{'2 or more'; 'Arts and Humanities'; 'Business'; 'Education'; 'Health and Medicine'; 'Public and Social Services'; 'Science, Math, and Technology'; 'Social Sciences'; 'Trades and Personal Services'; 'Multi-/Interdisciplinary Studies'; 'Other: __________'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_ArtsHumanities	STRING	{'Arts and Humanities'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_Business	STRING	{'Business'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_Education	STRING	{'Education'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_HealthMed	STRING	{'Health and Medicine'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_PublicSocialServices	STRING	{'Public and Social Services'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_ScienceMathTech	STRING	{'Science, Math, and Technology'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_SocialSciences	STRING	{'Social Sciences'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_TradesPersonalServices	STRING	{'Trades and Personal Services'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_MultiInterdisc	STRING	{'Multi-/Interdisciplinary Studies'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q62	EducUndergradArea_Other__	STRING	
+data2022main	Q63	EducGradArea_	INTEGER	0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10
+data2022main	Q63	EducGradArea_collapsed	STRING	{'2 or more'; 'Arts and Humanities'; 'Business'; 'Education'; 'Health and Medicine'; 'Public and Social Services'; 'Science, Math, and Technology'; 'Social Sciences'; 'Trades and Personal Services'; 'Multi-/Interdisciplinary Studies'; 'Other: __________'; '[^not answered]'; '[\unasked]'; '[\unfinished]'}
+data2022main	Q63	EducGradArea_ArtsHumanities	STRING	{'Arts and Humanities'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q63	EducGradArea_Business	STRING	{'Business'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q63	EducGradArea_Education	STRING	{'Education'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q63	EducGradArea_HealthMed	STRING	{'Health and Medicine'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q63	EducGradArea_PublicSocialServices	STRING	{'Public and Social Services'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q63	EducGradArea_ScienceMathTech	STRING	{'Science, Math, and Technology'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q63	EducGradArea_SocialSciences	STRING	{'Social Sciences'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q63	EducGradArea_TradesPersonalServices	STRING	{'Trades and Personal Services'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q63	EducGradArea_MultiInterdisc	STRING	{'Multi-/Interdisciplinary Studies'; '[^not chosen]'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q63	EducGradArea_Other__	STRING	
+data2022main	Q57	SpokenLanguages_summarized	STRING	{'1: English'; '1: Other'; '1: Unspecified'; '2 or more: English and Other(s)'; '2 or more: Other(s) and English'; '2 or more: Others'; '2 or more: Unspecified'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q59	Gender_summarized	STRING	{'Woman'; 'Man'; 'Self-described or Prefer not to say'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q61	RacEthHistUnderrep_	STRING	{'No'; 'Yes (opting not to specify)'; 'Yes, and I would like to specify:'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q64	DVSMembership	STRING	{'Yes'; 'No'; 'I don’t know'; '[^not answered]'; '[\unfinished]'}
+data2022main	Q66	SurveyDevice_summarized	STRING	{'Computer'; 'Phone'; 'Computer, Phone'; 'Computer, iPad'; 'Phone, iPad'; 'iPad'; 'Tablet'; '[^not answered]'; '[\unfinished]'}
+data2022main	meta	minutesInSurvey	NUMERIC	
+data2022main	meta	pctQanswered	NUMERIC	
+data2022main	meta	lastQanswered	STRING	
+data2022main	meta	lastSection_answered	STRING	
