@@ -1,4 +1,6 @@
 *.csv
 *.tsv
+*.swp
+.~lock*
 .prettierignore
 .gitignore
