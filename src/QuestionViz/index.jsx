@@ -5,11 +5,11 @@ import { scaleLinear, scaleBand } from 'd3-scale';
 import { axisBottom, axisLeft } from 'd3-axis';
 import './styles.css';
 
-const margin = { top: 10, right: 10, bottom: 30, left: 500 };
+const margin = { top: 5, right: 15, bottom: 30, left: 355 };
 const width = 800;
 const barHeight = 16;
 
-export const QuestionViz = ({ question, handleAnswerToggle }) => {
+export const QuestionViz = ({ question, handleAnswerToggle, filters }) => {
   const ref = useRef();
 
   const data = question.answers;
@@ -38,7 +38,11 @@ export const QuestionViz = ({ question, handleAnswerToggle }) => {
       .join('g')
       .attr('class', 'x-axis')
       .attr('transform', `translate(0,${height - bottom})`)
-      .call(axisBottom(xScale).ticks(5))
+      .call(
+        axisBottom(xScale)
+          .ticks(5)
+          .tickSize(-(height - bottom - top))
+      )
       .call((selection) => selection.selectAll('.domain').remove());
 
     svg
@@ -74,7 +78,10 @@ export const QuestionViz = ({ question, handleAnswerToggle }) => {
       .attr('x', xScale(0))
       .attr('y', (d) => yScale(yValue(d)))
       .attr('width', (d) => xScale(xValueForeground(d)) - xScale(0))
-      .attr('height', yScale.bandwidth());
+      .attr('height', yScale.bandwidth())
+      .attr('fill', (d) =>
+        filters.includes(d.column) ? 'steelblue' : 'black'
+      );
   }, [question, handleAnswerToggle]);
 
   return (

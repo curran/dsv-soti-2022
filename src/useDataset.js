@@ -5,6 +5,15 @@ import { csv } from 'd3-fetch';
 // Removes the irrelevant text after the "?".
 const cleanQuestion = (str) => str.substring(0, str.indexOf('?') + 1);
 
+const cleanAnswerMap = new Map([
+  [
+    'Performance issues (e.g. reliability, speed, lack of updates)',
+    'Performance issues',
+  ],
+  ['Other (please specify)', 'Other'],
+]);
+const cleanAnswer = (answer) => cleanAnswerMap.get(answer) || answer;
+
 export const useDataset = () => {
   const [dataset, setDataset] = useState(null);
 
@@ -21,6 +30,10 @@ export const useDataset = () => {
         for (const column of main.columns) {
           d[column] = valuesMap.get(d[column]);
         }
+      }
+      // Clean up some of the answer labels.
+      for (const d of dictionary) {
+        d.qrText_2022 = cleanAnswer(d.qrText_2022);
       }
 
       // Calculate the questions.

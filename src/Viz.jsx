@@ -4,6 +4,11 @@ import { QuestionViz } from './QuestionViz';
 
 // A sentinel value representing that the answer was not chosen.
 const notChosen = '[^not chosen]';
+const unasked = '[\\unasked]';
+const unfinished = '[\\unfinished]';
+
+const hasData = (value) =>
+  value !== notChosen && value !== unasked && value !== unfinished;
 
 export const Viz = ({ dataset }) => {
   const [filters, setFilters] = useState([]);
@@ -28,12 +33,13 @@ export const Viz = ({ dataset }) => {
 
   const data = dataset.main;
   const includedInFilters = (d) => {
+    let included = true;
     for (const column of filters) {
-      if (d[column] !== notChosen) {
-        return true;
+      if (!hasData(d[column])) {
+        included = false;
       }
     }
-    return false;
+    return included;
   };
 
   for (const question of multipleChoiceQuestions) {
@@ -44,7 +50,7 @@ export const Viz = ({ dataset }) => {
     const countsFiltered = new Map(columns.map((column) => [column, 0]));
     for (const d of data) {
       for (const column of columns) {
-        if (d[column] !== notChosen) {
+        if (hasData(d[column])) {
           counts.set(column, counts.get(column) + 1);
           if (includedInFilters(d)) {
             countsFiltered.set(column, countsFiltered.get(column) + 1);
@@ -69,6 +75,7 @@ export const Viz = ({ dataset }) => {
       <QuestionViz
         question={question}
         handleAnswerToggle={handleAnswerToggle}
+        filters={filters}
       />
     </div>
   ));
