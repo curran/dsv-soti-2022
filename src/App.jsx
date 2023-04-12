@@ -1,11 +1,10 @@
 import { useDataset } from './useDataset';
+import { Viz } from './Viz';
 import './App.css';
 
 function App() {
   const dataset = useDataset();
-  console.log(dataset);
-
-  return <div className="App">Hello</div>;
+  return dataset ? <Viz dataset={dataset} /> : <div>Loading...</div>;
 }
 
 export default App;
