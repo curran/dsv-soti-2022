@@ -56,7 +56,7 @@ export const useDataset = () => {
         ascending(a.answerColumns.length, b.answerColumns.length)
       );
 
-      setDataset({ main, dictionary, multipleChoiceQuestions });
+      setDataset({ main, dictionary, multipleChoiceQuestions, dictionaryMap });
     });
   }, []);
 

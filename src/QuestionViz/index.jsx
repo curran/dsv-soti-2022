@@ -5,8 +5,8 @@ import { scaleLinear, scaleBand } from 'd3-scale';
 import { axisBottom, axisLeft } from 'd3-axis';
 import './styles.css';
 
-const margin = { top: 10, right: 10, bottom: 30, left: 190 };
-const width = 400;
+const margin = { top: 10, right: 10, bottom: 30, left: 500 };
+const width = 800;
 const barHeight = 16;
 
 export const QuestionViz = ({ question, handleAnswerToggle }) => {

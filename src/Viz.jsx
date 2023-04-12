@@ -24,7 +24,7 @@ export const Viz = ({ dataset }) => {
   );
 
   //console.log(JSON.stringify(questions, null, 2));
-  const { multipleChoiceQuestions } = dataset;
+  const { multipleChoiceQuestions, dictionaryMap } = dataset;
 
   const data = dataset.main;
   const includedInFilters = (d) => {
@@ -56,10 +56,7 @@ export const Viz = ({ dataset }) => {
     question.answers = Array.from(counts.entries())
       .map(([column, count]) => ({
         column,
-        // Slightly cleaner name for display maybe
-        answer: column
-          .substring(question.questionColumn.length)
-          .replace('__', ''),
+        answer: dictionaryMap.get(column).qrText_2022,
         count,
         countFiltered: countsFiltered.get(column),
       }))

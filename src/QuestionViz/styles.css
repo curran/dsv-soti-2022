@@ -6,3 +6,7 @@
 .question-viz .mark-foreground {
   pointer-events: none;
 }
+
+.question-viz .tick text {
+  font-size: 14px;
+}

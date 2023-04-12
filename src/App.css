@@ -10,10 +10,11 @@ body {
 }
 
 .question {
-  max-width: 400px;
+  max-width: 800px;
   margin-top: 30px;
 }
 
 .question .question-text {
+  font-size: 18px;
   margin-left: 190px;
 }
