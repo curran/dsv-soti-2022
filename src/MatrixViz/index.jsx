@@ -10,7 +10,12 @@ const width = 800;
 const barHeight = 16;
 const maxRadius = 20;
 
-export const MatrixViz = ({ question, handleAnswerToggle, filters }) => {
+export const MatrixViz = ({
+  question,
+  handleAnswerToggle,
+  filters,
+  dictionaryMap,
+}) => {
   const ref = useRef();
 
   const data = question.answers;
@@ -53,7 +58,11 @@ export const MatrixViz = ({ question, handleAnswerToggle, filters }) => {
       .join('g')
       .attr('class', 'y-axis')
       .attr('transform', `translate(${left}, 0)`)
-      .call(axisLeft(yScale).tickSize(-(width - right - left)))
+      .call(
+        axisLeft(yScale)
+          .tickSize(-(width - right - left))
+          .tickFormat((d) => dictionaryMap.get(d).qrText_2022)
+      )
       .call((selection) => {
         selection.selectAll('.domain').remove();
       });

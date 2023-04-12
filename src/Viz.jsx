@@ -93,6 +93,7 @@ export const Viz = ({ dataset }) => {
           question={question}
           handleAnswerToggle={handleAnswerToggle}
           filters={filters}
+          dictionaryMap={dictionaryMap}
         />
       ) : (
         <QuestionViz
