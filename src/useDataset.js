@@ -1,5 +1,10 @@
 import { useState, useEffect } from 'react';
+import { ascending } from 'd3-array';
 import { csv } from 'd3-fetch';
+
+// Removes the irrelevant text after the "?".
+const cleanQuestion = (str) => str.substring(0, str.indexOf('?') + 1);
+
 export const useDataset = () => {
   const [dataset, setDataset] = useState(null);
 
@@ -36,7 +41,9 @@ export const useDataset = () => {
 
       for (const question of multipleChoiceQuestions) {
         const { questionColumn } = question;
-        question.text = dictionaryMap.get(questionColumn).qrText_2022;
+        question.text = cleanQuestion(
+          dictionaryMap.get(questionColumn).qrText_2022
+        );
         question.answerColumns = main.columns.filter(
           (column) =>
             column.startsWith(questionColumn) &&
@@ -44,6 +51,10 @@ export const useDataset = () => {
             !column.endsWith('_collapsed')
         );
       }
+
+      multipleChoiceQuestions.sort((a, b) =>
+        ascending(a.answerColumns.length, b.answerColumns.length)
+      );
 
       setDataset({ main, dictionary, multipleChoiceQuestions });
     });

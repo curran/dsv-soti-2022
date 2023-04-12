@@ -6,7 +6,7 @@ import { axisBottom, axisLeft } from 'd3-axis';
 import './styles.css';
 
 const margin = { top: 10, right: 10, bottom: 30, left: 190 };
-const width = 900;
+const width = 400;
 const barHeight = 16;
 
 export const QuestionViz = ({ question, handleAnswerToggle }) => {
@@ -38,7 +38,7 @@ export const QuestionViz = ({ question, handleAnswerToggle }) => {
       .join('g')
       .attr('class', 'x-axis')
       .attr('transform', `translate(0,${height - bottom})`)
-      .call(axisBottom(xScale))
+      .call(axisBottom(xScale).ticks(5))
       .call((selection) => selection.selectAll('.domain').remove());
 
     svg

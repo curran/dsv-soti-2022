@@ -4,7 +4,11 @@ import './App.css';
 
 function App() {
   const dataset = useDataset();
-  return dataset ? <Viz dataset={dataset} /> : <div>Loading...</div>;
+  return (
+    <div className="app">
+      {dataset ? <Viz dataset={dataset} /> : <div>Loading...</div>}
+    </div>
+  );
 }
 
 export default App;
