@@ -1,3 +1,8 @@
-.question-viz .mark {
+.question-viz .mark-background {
   cursor: pointer;
+  fill: #ddd;
+}
+
+.question-viz .mark-foreground {
+  pointer-events: none;
 }

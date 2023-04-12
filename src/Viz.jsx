@@ -27,27 +27,28 @@ export const Viz = ({ dataset }) => {
   const { multipleChoiceQuestions } = dataset;
 
   const data = dataset.main;
-  const filteredData = data.filter((d) => {
+  const includedInFilters = (d) => {
     for (const column of filters) {
       if (d[column] !== notChosen) {
         return true;
       }
     }
     return false;
-  });
-
-  console.log('data.length = ' + data.length);
-  console.log('filteredData.length = ' + filteredData.length);
+  };
 
   for (const question of multipleChoiceQuestions) {
     const columns = question.answerColumns;
 
     // Calculate counts for each answer.
     const counts = new Map(columns.map((column) => [column, 0]));
+    const countsFiltered = new Map(columns.map((column) => [column, 0]));
     for (const d of data) {
       for (const column of columns) {
         if (d[column] !== notChosen) {
           counts.set(column, counts.get(column) + 1);
+          if (includedInFilters(d)) {
+            countsFiltered.set(column, countsFiltered.get(column) + 1);
+          }
         }
       }
     }
@@ -60,6 +61,7 @@ export const Viz = ({ dataset }) => {
           .substring(question.questionColumn.length)
           .replace('__', ''),
         count,
+        countFiltered: countsFiltered.get(column),
       }))
       .sort((a, b) => descending(a.count, b.count));
   }
