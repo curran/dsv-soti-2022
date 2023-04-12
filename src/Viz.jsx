@@ -5,7 +5,23 @@ const height = 200;
 const notChosen = '[^not chosen]';
 
 export const Viz = ({ dataset }) => {
-  console.log(dataset.main.columns);
+  const dictionaryMap = new Map(dataset.dictionary.map((d) => [d.Variable, d]));
+
+  const questions = dataset.main.columns
+    .filter((column) => column.endsWith('_') && !column.endsWith('__'))
+    .map((questionColumn) => ({
+      questionColumn,
+    }));
+
+  for (const question of questions) {
+    const { questionColumn } = question;
+    question.text = dictionaryMap.get(questionColumn).qrText_2022;
+    question.answerColumns = dataset.main.columns.filter(
+      (column) => column.startsWith(questionColumn) && column !== questionColumn
+    );
+  }
+  console.log(JSON.stringify(questions, null, 2));
+  //console.log(JSON.stringify(questions, null, 2));
 
   const columns = [
     'DataVizRoles_Freelance',
@@ -28,6 +44,6 @@ export const Viz = ({ dataset }) => {
     }
   }
 
-  console.log(counts);
+  //console.log(counts);
   return <svg width={width} height={height} />;
 };
