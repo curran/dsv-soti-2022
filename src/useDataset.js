@@ -18,7 +18,34 @@ export const useDataset = () => {
         }
       }
 
-      setDataset({ main, dictionary });
+      // Calculate the questions.
+      const dictionaryMap = new Map(dictionary.map((d) => [d.Variable, d]));
+
+      const multipleChoiceQuestions = main.columns
+        .filter(
+          (column) =>
+            column.endsWith('_') &&
+            !column.endsWith('__') &&
+            // This one uses a different format, so will be handled elsewhere.
+            column !== 'RacEthHistUnderrep_'
+        )
+
+        .map((questionColumn) => ({
+          questionColumn,
+        }));
+
+      for (const question of multipleChoiceQuestions) {
+        const { questionColumn } = question;
+        question.text = dictionaryMap.get(questionColumn).qrText_2022;
+        question.answerColumns = main.columns.filter(
+          (column) =>
+            column.startsWith(questionColumn) &&
+            column !== questionColumn &&
+            !column.endsWith('_collapsed')
+        );
+      }
+
+      setDataset({ main, dictionary, multipleChoiceQuestions });
     });
   }, []);
 

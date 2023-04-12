@@ -1,3 +1,4 @@
+import { descending } from 'd3-array';
 const width = 500;
 const height = 200;
 
@@ -5,45 +6,34 @@ const height = 200;
 const notChosen = '[^not chosen]';
 
 export const Viz = ({ dataset }) => {
-  const dictionaryMap = new Map(dataset.dictionary.map((d) => [d.Variable, d]));
-
-  const questions = dataset.main.columns
-    .filter((column) => column.endsWith('_') && !column.endsWith('__'))
-    .map((questionColumn) => ({
-      questionColumn,
-    }));
-
-  for (const question of questions) {
-    const { questionColumn } = question;
-    question.text = dictionaryMap.get(questionColumn).qrText_2022;
-    question.answerColumns = dataset.main.columns.filter(
-      (column) => column.startsWith(questionColumn) && column !== questionColumn
-    );
-  }
-  console.log(JSON.stringify(questions, null, 2));
   //console.log(JSON.stringify(questions, null, 2));
+  const { multipleChoiceQuestions } = dataset;
 
-  const columns = [
-    'DataVizRoles_Freelance',
-    'DataVizRoles_Employee',
-    'DataVizRoles_Hobbyist',
-    'DataVizRoles_Student',
-    'DataVizRoles_Academic',
-    'DataVizRoles_PassiveIncome',
-    'DataVizRoles_PreferNot',
-  ];
+  for (const question of multipleChoiceQuestions) {
+    const columns = question.answerColumns;
+    // Initialize counts to 0.
 
-  // Initialize counts to 0.
-  const counts = new Map(columns.map((column) => [column, 0]));
-
-  for (const d of dataset.main) {
-    for (const column of columns) {
-      if (d[column] !== notChosen) {
-        counts.set(column, counts.get(column) + 1);
+    const counts = new Map(columns.map((column) => [column, 0]));
+    for (const d of dataset.main) {
+      for (const column of columns) {
+        if (d[column] !== notChosen) {
+          counts.set(column, counts.get(column) + 1);
+        }
       }
     }
+
+    question.answers = Array.from(counts.entries())
+      .map(([column, count]) => ({
+        column,
+        // Slightly cleaner name for display maybe
+        answer: column
+          .substring(question.questionColumn.length)
+          .replace('__', ''),
+        count,
+      }))
+      .sort((a, b) => descending(a.count, b.count));
   }
 
-  //console.log(counts);
+  console.log(multipleChoiceQuestions);
   return <svg width={width} height={height} />;
 };
