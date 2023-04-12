@@ -3,12 +3,13 @@ import { select } from 'd3-selection';
 import { max } from 'd3-array';
 import { scaleLinear, scaleBand } from 'd3-scale';
 import { axisBottom, axisLeft } from 'd3-axis';
+import './styles.css';
 
 const margin = { top: 10, right: 10, bottom: 30, left: 190 };
 const width = 900;
 const barHeight = 16;
 
-export const QuestionViz = ({ question }) => {
+export const QuestionViz = ({ question, handleAnswerToggle }) => {
   const ref = useRef();
 
   const data = question.answers;
@@ -52,14 +53,20 @@ export const QuestionViz = ({ question }) => {
       });
 
     svg
-      .selectAll('rect')
+      .selectAll('rect.mark')
       .data(data)
       .join('rect')
+      .attr('class', 'mark')
       .attr('x', xScale(0))
       .attr('y', (d) => yScale(yValue(d)))
       .attr('width', (d) => xScale(xValue(d)) - xScale(0))
-      .attr('height', yScale.bandwidth());
-  }, [question]);
+      .attr('height', yScale.bandwidth())
+      .on('click', (event, d) => {
+        handleAnswerToggle(d.column);
+      });
+  }, [question, handleAnswerToggle]);
 
-  return <svg width={width} height={height} ref={ref} />;
+  return (
+    <svg className="question-viz" width={width} height={height} ref={ref} />
+  );
 };
