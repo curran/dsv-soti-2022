@@ -1,15 +1,16 @@
 import { useRef, useEffect } from 'react';
 import { select } from 'd3-selection';
 import { max } from 'd3-array';
-import { scaleLinear, scaleBand } from 'd3-scale';
+import { scalePoint, scaleSqrt } from 'd3-scale';
 import { axisBottom, axisLeft } from 'd3-axis';
 import './styles.css';
 
 const margin = { top: 5, right: 15, bottom: 30, left: 355 };
 const width = 800;
 const barHeight = 16;
+const maxRadius = 20;
 
-export const QuestionViz = ({ question, handleAnswerToggle, filters }) => {
+export const MatrixViz = ({ question, handleAnswerToggle, filters }) => {
   const ref = useRef();
 
   const data = question.answers;
@@ -18,19 +19,24 @@ export const QuestionViz = ({ question, handleAnswerToggle, filters }) => {
   const yValue = (d) => d.answer;
 
   const { top, right, bottom, left } = margin;
-  const height = top + bottom + barHeight * data.length;
+  const height = top + bottom + barHeight * question.answerColumns.length;
 
   useEffect(() => {
     const svg = select(ref.current);
 
-    const xScale = scaleLinear()
+    const rScale = scaleSqrt()
       .domain([0, max(data, xValue)])
-      .range([left, width - right]);
+      .range([0, maxRadius]);
 
-    const yScale = scaleBand()
-      .domain(data.map(yValue))
+    const xScale = scalePoint()
+      .domain(question.matrixAnswers)
+      .range([left, width - right])
+      .padding(0.5);
+
+    const yScale = scalePoint()
+      .domain(question.answerColumns)
       .range([top, height - bottom])
-      .padding(0.1);
+      .padding(0.5);
 
     svg
       .selectAll('g.x-axis')
@@ -38,11 +44,7 @@ export const QuestionViz = ({ question, handleAnswerToggle, filters }) => {
       .join('g')
       .attr('class', 'x-axis')
       .attr('transform', `translate(0,${height - bottom})`)
-      .call(
-        axisBottom(xScale)
-          .ticks(5)
-          .tickSize(-(height - bottom - top))
-      )
+      .call(axisBottom(xScale).tickSize(-(height - bottom - top)))
       .call((selection) => selection.selectAll('.domain').remove());
 
     svg
@@ -51,37 +53,36 @@ export const QuestionViz = ({ question, handleAnswerToggle, filters }) => {
       .join('g')
       .attr('class', 'y-axis')
       .attr('transform', `translate(${left}, 0)`)
-      .call(axisLeft(yScale).tickPadding(0))
+      .call(axisLeft(yScale).tickSize(-(width - right - left)))
       .call((selection) => {
         selection.selectAll('.domain').remove();
-        selection.selectAll('.tick line').remove();
       });
 
+    for (const d of data) {
+      const [y, x] = d.answerKey.split('|');
+      d.x = x;
+      d.y = y;
+    }
     svg
-      .selectAll('rect.mark-background')
+      .selectAll('circle.mark-background')
       .data(data)
-      .join('rect')
+      .join('circle')
       .attr('class', 'mark-background')
-      .attr('x', xScale(0))
-      .attr('y', (d) => yScale(yValue(d)))
-      .attr('width', (d) => xScale(xValue(d)) - xScale(0))
-      .attr('height', yScale.bandwidth())
-      .on('click', (event, d) => {
-        handleAnswerToggle(d.answerKey);
-      });
+      .attr('cx', (d) => xScale(d.x))
+      .attr('cy', (d) => yScale(d.y))
+      .attr('r', (d) => rScale(d.count));
+    //.on('click', (event, d) => {
+    //  handleAnswerToggle(d.column);
+    //});
 
     svg
-      .selectAll('rect.mark-foreground')
+      .selectAll('circle.mark-foreground')
       .data(data)
-      .join('rect')
+      .join('circle')
       .attr('class', 'mark-foreground')
-      .attr('x', xScale(0))
-      .attr('y', (d) => yScale(yValue(d)))
-      .attr('width', (d) => xScale(xValueForeground(d)) - xScale(0))
-      .attr('height', yScale.bandwidth())
-      .attr('fill', (d) =>
-        filters.includes(d.answerKey) ? 'steelblue' : 'black'
-      );
+      .attr('cx', (d) => xScale(d.x))
+      .attr('cy', (d) => yScale(d.y))
+      .attr('r', (d) => rScale(d.countFiltered));
   }, [question, handleAnswerToggle]);
 
   return (

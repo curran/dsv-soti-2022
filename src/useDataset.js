@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ascending } from 'd3-array';
 import { csv } from 'd3-fetch';
+import { hasData } from './hasData';
 
 // Removes the irrelevant text after the "?".
 const cleanQuestion = (str) => str.substring(0, str.indexOf('?') + 1);
@@ -11,6 +12,7 @@ const cleanAnswerMap = new Map([
     'Performance issues',
   ],
   ['Other (please specify)', 'Other'],
+  ['[Other]', 'Other'],
 ]);
 const cleanAnswer = (answer) => cleanAnswerMap.get(answer) || answer;
 
@@ -54,20 +56,34 @@ export const useDataset = () => {
 
       for (const question of multipleChoiceQuestions) {
         const { questionColumn } = question;
-        question.text = cleanQuestion(
-          dictionaryMap.get(questionColumn).qrText_2022
-        );
+        const dictionaryEntry = dictionaryMap.get(questionColumn);
+        question.text = cleanQuestion(dictionaryEntry.qrText_2022);
+
+        // In this case, a matrix viz is needed.
+        question.isMatrix =
+          dictionaryEntry.rSetup_2022 === 'Matrix from select all';
+
         question.answerColumns = main.columns.filter(
           (column) =>
             column.startsWith(questionColumn) &&
             column !== questionColumn &&
             !column.endsWith('_collapsed')
         );
+
+        if (question.isMatrix) {
+          // Assumption (which is true for all cases investigated):
+          // These are the same for every answer of a given question.
+          question.matrixAnswers = dictionaryMap
+            .get(question.answerColumns[0])
+            ['dataRange (rList_2022 + null markers)'].split(';')
+            .map((str) => str.trim().replace(/'/g, ''))
+            .filter(hasData);
+        }
       }
 
-      multipleChoiceQuestions.sort((a, b) =>
-        ascending(a.answerColumns.length, b.answerColumns.length)
-      );
+      //multipleChoiceQuestions.sort((a, b) =>
+      //  ascending(a.answerColumns.length, b.answerColumns.length)
+      //);
 
       setDataset({ main, dictionary, multipleChoiceQuestions, dictionaryMap });
     });

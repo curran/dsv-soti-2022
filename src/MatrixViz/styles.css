@@ -1,0 +1,16 @@
+.question-viz .mark-background {
+  cursor: pointer;
+  fill: #ccc;
+}
+
+.question-viz .mark-foreground {
+  pointer-events: none;
+}
+
+.question-viz .tick text {
+  font-size: 14px;
+}
+
+.question-viz .tick line {
+  stroke: #ddd;
+}

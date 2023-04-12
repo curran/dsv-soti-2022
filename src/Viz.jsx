@@ -1,14 +1,19 @@
 import { useState, useCallback } from 'react';
 import { descending } from 'd3-array';
 import { QuestionViz } from './QuestionViz';
+import { MatrixViz } from './MatrixViz';
+import { hasData } from './hasData';
+import { key } from './key';
 
-// A sentinel value representing that the answer was not chosen.
-const notChosen = '[^not chosen]';
-const unasked = '[\\unasked]';
-const unfinished = '[\\unfinished]';
-
-const hasData = (value) =>
-  value !== notChosen && value !== unasked && value !== unfinished;
+const computePossibleMatrixAnswers = (columns, matrixAnswers) => {
+  const possibleAnswers = [];
+  for (const column of columns) {
+    for (const answer of matrixAnswers) {
+      possibleAnswers.push(key(column, answer));
+    }
+  }
+  return possibleAnswers;
+};
 
 export const Viz = ({ dataset }) => {
   const [filters, setFilters] = useState([]);
@@ -28,7 +33,6 @@ export const Viz = ({ dataset }) => {
     [filters]
   );
 
-  //console.log(JSON.stringify(questions, null, 2));
   const { multipleChoiceQuestions, dictionaryMap } = dataset;
 
   const data = dataset.main;
@@ -46,25 +50,37 @@ export const Viz = ({ dataset }) => {
     const columns = question.answerColumns;
 
     // Calculate counts for each answer.
-    const counts = new Map(columns.map((column) => [column, 0]));
-    const countsFiltered = new Map(columns.map((column) => [column, 0]));
+    const possibleAnswers = question.isMatrix
+      ? computePossibleMatrixAnswers(columns, question.matrixAnswers)
+      : columns;
+    const counts = new Map(possibleAnswers.map((column) => [column, 0]));
+    const countsFiltered = new Map(
+      possibleAnswers.map((column) => [column, 0])
+    );
+    //    const answersSet = new Set();
     for (const d of data) {
       for (const column of columns) {
         if (hasData(d[column])) {
-          counts.set(column, counts.get(column) + 1);
+          //         answersSet.add(d[column]);
+          // TODO count by combination of column and answer.
+          const answerKey = question.isMatrix ? key(column, d[column]) : column;
+          counts.set(answerKey, counts.get(answerKey) + 1);
           if (includedInFilters(d)) {
-            countsFiltered.set(column, countsFiltered.get(column) + 1);
+            countsFiltered.set(answerKey, countsFiltered.get(answerKey) + 1);
           }
         }
       }
     }
 
+    question.counts = counts;
     question.answers = Array.from(counts.entries())
-      .map(([column, count]) => ({
-        column,
-        answer: dictionaryMap.get(column).qrText_2022,
+      .map(([answerKey, count]) => ({
+        answerKey,
+        answer: question.isMatrix
+          ? undefined
+          : dictionaryMap.get(answerKey).qrText_2022,
         count,
-        countFiltered: countsFiltered.get(column),
+        countFiltered: countsFiltered.get(answerKey),
       }))
       .sort((a, b) => descending(a.count, b.count));
   }
@@ -72,11 +88,19 @@ export const Viz = ({ dataset }) => {
   return multipleChoiceQuestions.map((question) => (
     <div className="question" key={question.questionColumn}>
       <div className="question-text">{question.text}</div>
-      <QuestionViz
-        question={question}
-        handleAnswerToggle={handleAnswerToggle}
-        filters={filters}
-      />
+      {question.isMatrix ? (
+        <MatrixViz
+          question={question}
+          handleAnswerToggle={handleAnswerToggle}
+          filters={filters}
+        />
+      ) : (
+        <QuestionViz
+          question={question}
+          handleAnswerToggle={handleAnswerToggle}
+          filters={filters}
+        />
+      )}
     </div>
   ));
 };
