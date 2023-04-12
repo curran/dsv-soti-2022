@@ -4,7 +4,22 @@ export const useDataset = () => {
   const [dataset, setDataset] = useState(null);
 
   useEffect(() => {
-    csv('./main.csv').then((data) => console.log(data));
+    Promise.all([
+      csv('./main.csv'),
+      csv('./values.csv'),
+      csv('./dictionary.csv'),
+    ]).then(([main, values, dictionary]) => {
+      const valuesMap = new Map(values.map(({ key, value }) => [key, value]));
+
+      // Decompress the main dataset by filling in values.
+      for (const d of main) {
+        for (const column of main.columns) {
+          d[column] = valuesMap.get(d[column]);
+        }
+      }
+
+      setDataset({ main, dictionary });
+    });
   }, []);
 
   return dataset;
