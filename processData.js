@@ -5,7 +5,7 @@ import { tsvParse, csvParse, csvFormat } from 'd3-dsv';
 // into clean usable files.
 
 const processDictionary = () => {
-  const rawTSV = fs.readFileSync('./data/raw/dictionary2022main.tsv', 'utf-8');
+  const rawTSV = fs.readFileSync('./data/dictionary2022main.tsv', 'utf-8');
 
   // This TSV has a bunch of non-TSV content before the data really starts,
   // which is at "Variable", the first column name.
@@ -20,14 +20,14 @@ const processDictionary = () => {
   }
 
   // Generate a CSV file that's directly usable in client-side code.
-  fs.writeFileSync('./data/dictionary2022main.csv', csvFormat(data));
+  fs.writeFileSync('./public/dictionary.csv', csvFormat(data));
 };
 
 const processMain = () => {
   // This file is much too large at 8MB.
   // The following logic compresses the file by creating a
   // data dictionary mapping numbers to strings.
-  const rawCSV = fs.readFileSync('./data/raw/data2022main.csv', 'utf-8');
+  const rawCSV = fs.readFileSync('./data/data2022main.csv', 'utf-8');
   const data = csvParse(rawCSV);
 
   // This will be the new key that we store.
@@ -51,11 +51,14 @@ const processMain = () => {
     }
   }
 
-  const values = Array.from(valueToKey.entries()).map(([value, key]) => ({ key, value }));
+  const values = Array.from(valueToKey.entries()).map(([value, key]) => ({
+    key,
+    value,
+  }));
 
   // Generate a CSV file that's directly usable in client-side code.
-  fs.writeFileSync('./data/main.csv', csvFormat(data));
-  fs.writeFileSync('./data/mainValues.csv', csvFormat(values));
+  fs.writeFileSync('./public/main.csv', csvFormat(data));
+  fs.writeFileSync('./public/values.csv', csvFormat(values));
 };
 
 processDictionary();
